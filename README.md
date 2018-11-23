@@ -9,7 +9,8 @@
 
 分組網誌：https://mdecadp2018.github.io/finalproject-ag1/blog/
 
-本倉儲位於:  https://github.com/mdecourse/2018fall 
 
 (保留頁面)
 設定步驟: https://github.com/scrum-1/scrum-1.github.io/wiki
+
+本倉儲位於:  https://github.com/mdecourse/2018fall 
