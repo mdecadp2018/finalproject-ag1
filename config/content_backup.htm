@@ -384,47 +384,74 @@
 <p>接著課綱要求我們改變Bowl的高度來檢查我們模形有無錯誤，以及改變Bowl的直徑來檢查，都確認無誤就可以將尺寸改回原來的樣子。</p>
 <p>________________________________________________________________________________</p>
 <p><strong>完成品視圖</strong></p>
-<p><strong></strong></p>
+<p><strong><img alt="" height="295" src="/images/chrome_2018-12-18_20-42-10.png" width="359"/></strong></p>
 <h1><span style="font-family: aileron; font-size: 34px;">Independent_Study</span></h1>
 <h1>Issue_&amp;_Solution</h1>
-<p>Week 12</p>
-<p>Week 13</p>
+<p><strong>紀錄各周所遇到的問題和解決方案</strong></p>
 <h2>Week 12</h2>
-<p>【 Heroku 與 Github 同步衝突 】</p>
+<p><strong>【 Heroku 與 Github 同步衝突 】</strong></p>
 <blockquote>
 <p>●流程：</p>
-<p>1、由組長所建立的 Heroku 的帳號</p>
-<p>2、create 一個 app 名為 cadp2018-ag1，再將資料 clone 至近端</p>
-<p>3、將小組資料夾內除 .git 資料夾以外資料複製過去(包含同步所需要的<a href="https://mdecp2018.github.io/finalproject-bgx/content/Heroku%20%E8%A8%AD%E5%AE%9A.html">三個檔案</a>)</p>
-<p>4、接著 git add . 推送至 Heroku</p>
-<p>按上述四個步驟即可完成  Heroku 與 Github 同步</p>
+<ol>
+<li>由組長所建立的 Heroku 的帳號</li>
+<li>create 一個 app 名為 cadp2018-ag1，再將資料 clone 至近端</li>
+<li>將小組資料夾內除 .git 資料夾以外資料複製過去(包含同步所需要的<a href="https://mdecp2018.github.io/finalproject-bgx/content/Heroku%20%E8%A8%AD%E5%AE%9A.html">三個檔案</a>)</li>
+<li>接著 git add . 推送至 Heroku</li>
+</ol>
+<p><span style="color: #ff0000;">按上述四個步驟即可完成  Heroku 與 Github 同步</span></p>
 <p>●問題：</p>
-<p>上述步驟結束後發生衝突判斷</p>
-<p>1、可能為推送時間太接近，造成 Heroku 尚未和前次推送同步時又重複推送</p>
-<p>2、指令 或是 clone  位址、檔案或推送次序有誤</p>
+<p><span style="color: #ff0000;">上述步驟結束後發生衝突判斷</span></p>
+<ol>
+<li>可能為推送時間太接近，造成 Heroku 尚未和前次推送同步時又重複推送</li>
+<li>指令 或是 clone  位址、檔案或推送次序有誤</li>
+</ol>
 <p>●方法：</p>
-<p>1、利用 git checkout 將小組倉儲版本退回同步以前</p>
-<p>2、刪除現階段小組倉儲同步檔案，並再一次推送，後重新放入同步必須的<a href="https://mdecp2018.github.io/finalproject-bgx/content/Heroku%20%E8%A8%AD%E5%AE%9A.html">三個檔案</a>，並且覆蓋掉 Heroku 過去版本</p>
-<p>3、重新建立 Heroku app 一切重新來過</p>
-<p>後採用方法 2 ，順利解決</p>
+<ol>
+<li>利用 git checkout 將小組倉儲版本退回同步以前</li>
+<li>刪除現階段小組倉儲同步檔案，並再一次推送，後重新放入同步必須的<a href="https://mdecp2018.github.io/finalproject-bgx/content/Heroku%20%E8%A8%AD%E5%AE%9A.html">三個檔案</a>，並且覆蓋掉 Heroku 過去版本</li>
+<li>重新建立 Heroku app 一切重新來過</li>
+</ol>
+<p><span style="color: #ff0000;">後採用方法 2 ，順利解決</span></p>
 <h2>Week 13</h2>
-<p>1、Title：Cadp2018-AG1</p>
-<p>2、新增 Final Report 期末報告，在美洲皆須更新 .pdf 檔</p>
-<p>3、個人網站連結</p>
-<p>4、點名表格新增</p>
-<p>5、專題主題連結</p>
-<p>Final Report：每周進度上傳 .pdf ，<a href="https://mdecp2018.github.io/finalproject-bgx/content/%E5%8D%94%E5%90%8C%E7%B7%A8%E8%BC%AF.html">協同編輯</a></p>
+<p><strong>【 小組評分項目注意事項】</strong></p>
+<ol>
+<li>小組網誌需更改名字</li>
+<li>新增 Final Report 期末報告，在每周皆須更新 .pdf 檔</li>
+<li>每周需更新小組Reveal並上台報告</li>
+<li>每周需更新組員出席狀況</li>
+<li>不定時更新專題主題連結</li>
+</ol>
+<h2>Week 14</h2>
+<p><strong>【 V-rep機械手臂無法做動 】</strong></p>
+<p>●流程：</p>
+<ol>
+<li>打開P37資料夾裡的附件，可開啟V-rep軟體</li>
+<li>依照<a href="http://www.coppeliarobotics.com/helpFiles/en/inverseKinematicsTutorial.htm">課綱</a>的步驟，將機械手臂各機構連結</li>
+<li>使用joint插入轉軸在手臂各旋轉部位</li>
+<li>設定"變數f(x)"、"target~tip循環"、"link+joint順序排列"</li>
+<li>最後播放來測試機械手臂是否能順利做動</li>
+</ol>
+<p>●問題：</p>
+<p><span style="color: #ff0000;">變更target的點座標，機械手臂不會跟著移動</span></p>
+<ol>
+<li>可能是joint轉軸沒有設定運動模式</li>
+<li>link或是joint的順序不對</li>
+<li>link的shape框選不正確</li>
+</ol>
+<p>●方法：</p>
+<ol>
+<li>轉軸需要設定成反向運動模式</li>
+<li>排列順序由基底圓柱循序漸進到夾爪</li>
+<li>轉動機構和其連接的地方為一part</li>
+</ol>
+<p><span style="color: #ff0000;">後採用方法 1，順利解決</span></p>
 </blockquote>
 <h1>Experience</h1>
+<h2>40423217心得記錄 </h2>
+<p></p>
 <h1>Fianl_Report</h1>
-<ul>
-<li>Week 12</li>
-<li>Week 13</li>
-</ul>
+<p><strong>此PDF檔將會不斷更新，並在期末完成最終專題報告版本。</strong></p>
 <p><a href="/downloads/第一組.pdf">/downloads/第一組.pdf</a></p>
-<ul>
-<li>Week 14</li>
-</ul>
 <h1>Attend_&amp;_Absence</h1>
 <table border="1" style="border-collapse: collapse; width: 100%; height: 373px;">
 <tbody>
