@@ -24,8 +24,20 @@
 <v t="leo.20180827201621.9" a="E"><vh>封面投影片</vh>
 <v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20180827201621.11" a="E"><vh>快捷鍵</vh>
-<v t="leo.20180827201621.12"><vh>投影片快捷鍵</vh></v>
+<v t="leo.20180827201621.11" a="E"><vh>小組前言</vh>
+<v t="leo.20180827201621.12"><vh>目錄</vh></v>
+</v>
+<v t="leo.20181220193905.1" a="E"><vh>11/23</vh>
+<v t="leo.20181220193905.2"><vh>小組進度</vh></v>
+</v>
+<v t="leo.20181220193900.1" a="E"><vh>11/30</vh>
+<v t="leo.20181220193900.2"><vh>小組進度</vh></v>
+</v>
+<v t="leo.20181220193757.1" a="E"><vh>12/7</vh>
+<v t="leo.20181220193757.2"><vh>小組進度</vh></v>
+</v>
+<v t="leo.20181220193841.1" a="E"><vh>12/14</vh>
+<v t="leo.20181220193841.2"><vh>小組進度</vh></v>
 </v>
 <v t="leo.20180827201621.13"><vh>各式內容引用範例</vh>
 <v t="leo.20180827201621.14" a="E"><vh>導入數學符號與方程式</vh>
@@ -129,10 +141,10 @@ vertical: body pane on the botton</t>
 ### 虎科大機械設計工程系
 
 &lt;small&gt;
-Created by [KMOLab](http://lab.kmol.info/)
+Created by [第一組](https://github.com/mdecadp2018/finalproject-ag1)
 &lt;/small&gt;
 
-[2018 Fall 分組網誌](./../blog/index.html)
+[2018 Fall 第一組網誌](https://mdecadp2018.github.io/finalproject-ag1/content/index.html)
 
 
 </t>
@@ -145,16 +157,23 @@ Created by [KMOLab](http://lab.kmol.info/)
 
 						
 </t>
-<t tx="leo.20180827201621.12"># 投影片快捷鍵
+<t tx="leo.20180827201621.12"># 小組任務目錄
 
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
+* 專題分工&lt;small&gt;
 
-</t>
+  ★ 收集資料，確定研究方向
+  
+  ★ 利用Onshape繪製機構並組裝
+  
+  ★ 統整並呈現清晰易懂的專題介紹&lt;/small&gt;
+
+* Onshape分工&lt;small&gt;
+
+  ★ 每周Lesson plan繪製(隔周與HW輪流交換)
+  
+  ★ 每周Homework繪製
+  
+  ★ 整理各周重點並張貼於網誌上</t>
 <t tx="leo.20180827201621.13">&lt;section&gt;
 @others
 &lt;/section&gt;
@@ -325,6 +344,71 @@ make.start()
 
 
 						
+</t>
+<t tx="leo.20181220193757.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181220193757.2"># 第13周小組進度
+
+* 使用雲端Word與組員一同編輯report
+* 繪製[Onshape wee8](https://cad.onshape.com/documents/f88fcd000b1c981e3741e4a7/v/88827ff4bf450a7a7d5005df/e/8ea6921146c8d2ada378bbb0) 課綱及作業
+
+
+
+</t>
+<t tx="leo.20181220193841.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181220193841.2"># 第14周小組進度
+
+* 各組員自行繪製Vrep的手臂
+* 組長負責彙整各組員的操作精華
+* 繪製[Onshape wee9](https://cad.onshape.com/documents/99f44813f94bb17995b9615e/v/b6cd6f7ef388b1a3bcbf5660/e/6cf181c64ab0aab44e492e9c) 課綱及作業
+
+</t>
+<t tx="leo.20181220193900.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181220193900.2"># 第12周小組進度
+
+* 各自查詢機械手臂相關資訊
+* 繪製[Onshape wee7](https://cad.onshape.com/documents/f88fcd000b1c981e3741e4a7/v/b8b544d71bb7b59a11264be5/e/de09d714e2e70d2661660a83) 課綱及作業
+
+
+</t>
+<t tx="leo.20181220193905.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181220193905.2"># 第11周小組進度
+
+* 創建Heroku小組遠端同步網站
+* 繪製[Onshape wee6](https://cad.onshape.com/documents/f88fcd000b1c981e3741e4a7/v/4dbc40f20ca06b4ce67bbb9d/e/de09d714e2e70d2661660a83) 課綱及作業
+* 專題題目定案:機械手臂
+
 </t>
 </tnodes>
 </leo_file>
