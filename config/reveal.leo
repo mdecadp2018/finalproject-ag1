@@ -27,19 +27,19 @@
 <v t="leo.20180827201621.11" a="E"><vh>小組前言</vh>
 <v t="leo.20180827201621.12"><vh>目錄</vh></v>
 </v>
-<v t="leo.20181220193905.1" a="E"><vh>11/23</vh>
+<v t="leo.20181220193905.1" a="E"><vh>week11(11/23)</vh>
 <v t="leo.20181220193905.2"><vh>小組進度</vh></v>
 </v>
-<v t="leo.20181220193900.1" a="E"><vh>11/30</vh>
+<v t="leo.20181220193900.1" a="E"><vh>week12(11/30)</vh>
 <v t="leo.20181220193900.2"><vh>小組進度</vh></v>
 </v>
-<v t="leo.20181220193757.1" a="E"><vh>12/7</vh>
+<v t="leo.20181220193757.1" a="E"><vh>week13(12/7)</vh>
 <v t="leo.20181220193757.2"><vh>小組進度</vh></v>
 </v>
-<v t="leo.20181220193841.1" a="E"><vh>12/14</vh>
+<v t="leo.20181220193841.1" a="E"><vh>week14(12/14)</vh>
 <v t="leo.20181220193841.2"><vh>小組進度</vh></v>
 </v>
-<v t="leo.20180827201621.13"><vh>各式內容引用範例</vh>
+<v t="leo.20180827201621.13" a="E"><vh>各式內容引用範例</vh>
 <v t="leo.20180827201621.14" a="E"><vh>導入數學符號與方程式</vh>
 <v t="leo.20180827201621.15"><vh>LaTeX 格式方程式</vh></v>
 </v>
@@ -157,23 +157,21 @@ Created by [第一組](https://github.com/mdecadp2018/finalproject-ag1)
 
 						
 </t>
-<t tx="leo.20180827201621.12"># 小組任務目錄
+<t tx="leo.20180827201621.12">## 小組任務目錄
 
-* 專題分工&lt;small&gt;
+&lt;b&gt;&lt;font color="#00DDAA"&gt;專題分工&lt;/font&gt;&lt;/b&gt;
 
-  ★ 收集資料，確定研究方向
+* 收集資料，確定研究方向
+* 利用Onshape繪製機構並組裝
+* 統整並呈現清晰易懂的專題介紹
   
-  ★ 利用Onshape繪製機構並組裝
-  
-  ★ 統整並呈現清晰易懂的專題介紹&lt;/small&gt;
+&lt;b&gt;&lt;font color="#00DDAA"&gt;Onshape分工&lt;/font&gt;&lt;/b&gt;
 
-* Onshape分工&lt;small&gt;
+* 每周Lesson plan繪製(隔周與HW輪流交換)
+* 每周Homework繪製
+* 整理各周重點並張貼於網誌上
 
-  ★ 每周Lesson plan繪製(隔周與HW輪流交換)
-  
-  ★ 每周Homework繪製
-  
-  ★ 整理各周重點並張貼於網誌上</t>
+</t>
 <t tx="leo.20180827201621.13">&lt;section&gt;
 @others
 &lt;/section&gt;
@@ -356,8 +354,8 @@ make.start()
 </t>
 <t tx="leo.20181220193757.2"># 第13周小組進度
 
-* 使用雲端Word與組員一同編輯report
-* 繪製[Onshape wee8](https://cad.onshape.com/documents/f88fcd000b1c981e3741e4a7/v/88827ff4bf450a7a7d5005df/e/8ea6921146c8d2ada378bbb0) 課綱及作業
+* 使用雲端Word與組員一同編輯report，做出第一份PDF初稿
+* 繪製[Onshape week8](https://cad.onshape.com/documents/f88fcd000b1c981e3741e4a7/v/88827ff4bf450a7a7d5005df/e/8ea6921146c8d2ada378bbb0) 課綱及作業
 
 
 
@@ -375,7 +373,7 @@ make.start()
 
 * 各組員自行繪製Vrep的手臂
 * 組長負責彙整各組員的操作精華
-* 繪製[Onshape wee9](https://cad.onshape.com/documents/99f44813f94bb17995b9615e/v/b6cd6f7ef388b1a3bcbf5660/e/6cf181c64ab0aab44e492e9c) 課綱及作業
+* 繪製[Onshape week9](https://cad.onshape.com/documents/99f44813f94bb17995b9615e/v/b6cd6f7ef388b1a3bcbf5660/e/6cf181c64ab0aab44e492e9c) 課綱及作業
 
 </t>
 <t tx="leo.20181220193900.1">&lt;section data-markdown&gt;
@@ -389,8 +387,8 @@ make.start()
 </t>
 <t tx="leo.20181220193900.2"># 第12周小組進度
 
-* 各自查詢機械手臂相關資訊
-* 繪製[Onshape wee7](https://cad.onshape.com/documents/f88fcd000b1c981e3741e4a7/v/b8b544d71bb7b59a11264be5/e/de09d714e2e70d2661660a83) 課綱及作業
+* 各自查詢機械手臂相關資訊，正在統整當中
+* 繪製[Onshape week7](https://cad.onshape.com/documents/f88fcd000b1c981e3741e4a7/v/b8b544d71bb7b59a11264be5/e/de09d714e2e70d2661660a83) 課綱及作業
 
 
 </t>
@@ -406,8 +404,8 @@ make.start()
 <t tx="leo.20181220193905.2"># 第11周小組進度
 
 * 創建Heroku小組遠端同步網站
-* 繪製[Onshape wee6](https://cad.onshape.com/documents/f88fcd000b1c981e3741e4a7/v/4dbc40f20ca06b4ce67bbb9d/e/de09d714e2e70d2661660a83) 課綱及作業
-* 專題題目定案:機械手臂
+* 繪製[Onshape week6](https://cad.onshape.com/documents/f88fcd000b1c981e3741e4a7/v/4dbc40f20ca06b4ce67bbb9d/e/de09d714e2e70d2661660a83) 課綱及作業
+* 專題題目定案：機械手臂
 
 </t>
 </tnodes>
