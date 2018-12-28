@@ -510,21 +510,14 @@
 <p><strong>Inverse Kinematics tutorial：<a href="http://www.coppeliarobotics.com/helpFiles/en/inverseKinematicsTutorial.htm">http://www.coppeliarobotics.com/helpFiles/en/inverseKinematicsTutorial.htm</a></strong></p>
 <p><strong>線上英英翻譯</strong>：<strong><a href="https://www.merriam-webster.com/">https://www.merriam-webster.com/</a></strong></p>
 <p>正文翻譯：</p>
-<p>反向運動學手把手教學：Inverse kinematics tuturial</p>
-<p><span>This tutorial will try to explain how to use the </span><a href="http://www.coppeliarobotics.com/helpFiles/en/inverseKinematicsModule.htm">inverse kinematics functionality</a><span>, while building a 7 DoF redundant manipulator.</span><br/>本文章嘗試去解釋如何在建立一個七自由度無拘束運動鏈(7 DoF redundant manipulator)時，使用反向運度學功能(inverse kinematics functionlity)。</p>
+<p>Inverse kinematics tuturial<br/>反向(Inverse)運動學(Kinematics)手把手教學(tutorial)</p>
+<p><span>This tutorial will try to explain how to use the </span><span style="color: #000080;"><a href="http://www.coppeliarobotics.com/helpFiles/en/inverseKinematicsModule.htm" style="color: #000080;">inverse kinematics functionality</a></span><span>, while building a 7 DoF redundant manipulator.</span><br/>本文章嘗試去解釋如何在建立一個七自由度冗餘機械手臂操作(7 DoF redundant manipulator)時，使用反向運度學功能(inverse kinematics functionlity)。</p>
 <p><span>But before that, make sure to have a look at the various simple example scenes related to IK and FK in folder </span><em>scenes.</em><br/>但是在那之前，先確定(make sure)了解幾個各式各樣簡單的範例，當中和<span>結合(folded：摺疊、合體的)狀況下 IK 和 FK 之間的關聯性。</span></p>
 <p><span>For this tutorial,we will build a non-dynamic manipulator, that just uses inverse kinematics without using any physics engine functionality<br/></span><span>手把手教學中我們會建立一個沒有物理引擎功能的反向運動機構，進行非動態(non-dynamic)的操作。</span></p>
 <p><span>The V-REP CAD data related to this tutorial ("redundantManipulator.stl") is located in V-REP's installation folder's "cadFiles" folder.<br/>本教學在 V-REP CAD 使用的檔案為"redundantManipulator.stl"</span><span>位於 V-REP 安裝資料夾" cadFiles"</span><span></span></p>
-<p><span>A V-REP <a href="http://www.coppeliarobotics.com/helpFiles/en/scenes.htm">scene</a> related to this tutorial can be found in V-REP's installation folder's "tutorials\InverseKinematics" folder. Click [Menu bar --&gt; File --&gt; Import --&gt; Mesh...] then select the file to import. Also refer to the section on how to <a href="http://www.coppeliarobotics.com/helpFiles/en/importExport.htm">import/export shapes</a>.</span></p>
-<blockquote>
-<p>inverse：反向、相反 </p>
-<p>kinematics：運動學</p>
-</blockquote>
-<p>redundant manipulator：餘數操作</p>
-<blockquote>
-<p>redundant：冗；超出之數量 (exceed)</p>
-<p>manipulator：操縱</p>
-</blockquote>
+<p><span>A V-REP <span style="color: #000080;"><a href="http://www.coppeliarobotics.com/helpFiles/en/scenes.htm" style="color: #000080;">scene</a></span> related to this tutorial can be found in V-REP's installation folder's "tutorials\InverseKinematics" folder.<br/>本教學可以在 V-REP 安裝資料夾 "tutorials\InverseKinematics"。</span><span></span></p>
+<p><span>Click [Menu bar --&gt; File --&gt; Import --&gt; Mesh...] then select the file to import. Also refer to the section on how to <a href="http://www.coppeliarobotics.com/helpFiles/en/importExport.htm"><span style="color: #000080;">import/export shapes</span></a>.<br/>[Menu bar --&gt; File --&gt; Import --&gt; Mesh...]選擇檔案並按上述步驟進行檔案匯入，再者可以參考(refer)<a href="http://www.coppeliarobotics.com/helpFiles/en/importExport.htm">import/export shapes</a>。<br/></span></p>
+<p><span>A dialog pops open asking about mesh scaling and mesh orientation. Click Ok. A single <span style="color: #000080;"><a href="http://www.coppeliarobotics.com/helpFiles/en/shapes.htm" style="color: #000080;">simple shape</a></span> was imported and is located in the middle of the scene. The shape also appears in the <span style="color: #000080;"><a href="http://www.coppeliarobotics.com/helpFiles/en/userInterface.htm#SceneHierarchy" style="color: #000080;">scene hierarchy</a></span> on the left hand side of the main window. <br/><br/></span></p>
 <p>non-dynamic：非動態</p>
 <p>recounting：詳述</p>
 <p>established：既定</p>
@@ -696,7 +689,7 @@
 <td style="width: 10%; height: 99px; text-align: center;">O</td>
 <td style="width: 10%; height: 99px; text-align: center;">◇</td>
 <td style="width: 10%; height: 99px; text-align: center;">O</td>
-<td style="width: 10%; height: 99px; text-align: center;"></td>
+<td style="width: 10%; height: 99px; text-align: center;">O</td>
 <td style="width: 10%; height: 99px; text-align: center;"></td>
 <td style="width: 10%; height: 99px; text-align: center;"></td>
 </tr>
@@ -711,7 +704,7 @@
 <td style="width: 10%; height: 78px; text-align: center;">O</td>
 <td style="width: 10%; height: 78px; text-align: center;">O</td>
 <td style="width: 10%; height: 78px; text-align: center;">O</td>
-<td style="width: 10%; height: 78px; text-align: center;"></td>
+<td style="width: 10%; height: 78px; text-align: center;">O</td>
 <td style="width: 10%; height: 78px; text-align: center;"></td>
 <td style="width: 10%; height: 78px; text-align: center;"></td>
 </tr>
@@ -726,7 +719,7 @@
 <td style="width: 10%; height: 49px; text-align: center;">O</td>
 <td style="width: 10%; height: 49px; text-align: center;">O</td>
 <td style="width: 10%; height: 49px; text-align: center;">O</td>
-<td style="width: 10%; height: 49px; text-align: center;"></td>
+<td style="width: 10%; height: 49px; text-align: center;">O</td>
 <td style="width: 10%; height: 49px; text-align: center;"></td>
 <td style="width: 10%; height: 49px; text-align: center;"></td>
 </tr>
@@ -741,7 +734,7 @@
 <td style="width: 10%; height: 49px; text-align: center;">O</td>
 <td style="width: 10%; height: 49px; text-align: center;">O</td>
 <td style="width: 10%; height: 49px; text-align: center;">O</td>
-<td style="width: 10%; height: 49px; text-align: center;"></td>
+<td style="width: 10%; height: 49px; text-align: center;">O</td>
 <td style="width: 10%; height: 49px; text-align: center;"></td>
 <td style="width: 10%; height: 49px; text-align: center;"></td>
 </tr>
