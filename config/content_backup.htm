@@ -6,14 +6,14 @@
 <p><a href="https://mdecadp2018.github.io/site-40423214/content/index.html">40423214</a> (期中自評：76)</p>
 <p><a href="https://mdecadp2018.github.io/site-40423252/content/index.html">40423252</a> (期中自評：70)</p>
 <p><a href="https://mdecadp2018.github.io/site-40423126/content/index.html">40423126</a> (期中自評：71)</p>
+<p>課程須準備：筆記本、隨身碟、耳機</p>
 </blockquote>
 <p><strong><span>分組倉儲：</span><a href="https://github.com/mdecadp2018/finalproject-ag1"><span>https://github.com/mdecadp2018/finalproject-ag1</span></a></strong></p>
 <p><b>分組網站：<a href="https://mdecadp2018.github.io/finalproject-ag1/content/index.html">https://mdecadp2018.github.io/finalproject-ag1/content/index.html</a></b></p>
 <p><strong>分組投影片：<a href="https://mdecadp2018.github.io/finalproject-ag1/reveal/">https://mdecadp2018.github.io/finalproject-ag1/reveal/</a></strong></p>
 <p><strong>分組網誌：<a href="https://mdecadp2018.github.io/finalproject-ag1/blog/"><b>https://mdecadp2018.github.io/finalproject-ag1/blog/</b></a></strong></p>
 <p></p>
-<p><strong>(保留頁面) 本倉儲位於:  <a href="https://github.com/mdecourse/2018fall">https://github.com/mdecourse/2018fall</a> </strong></p>
-<h2>Weekwork_10</h2>
+<p><strong>(保留頁面) 本倉儲位於:  <a href="https://github.com/mdecourse/2018fall">https://github.com/mdecourse/2018fall</a> </strong></p><h2>Weekwork_10</h2>
 <p>01_主題定為：</p>
 <blockquote>
 <p>2018年11月11日決定下半學期主題以及推展進度 → 初校</p>
@@ -510,19 +510,30 @@
 <p><strong>Inverse Kinematics tutorial：<a href="http://www.coppeliarobotics.com/helpFiles/en/inverseKinematicsTutorial.htm">http://www.coppeliarobotics.com/helpFiles/en/inverseKinematicsTutorial.htm</a></strong></p>
 <p><strong>線上英英翻譯</strong>：<strong><a href="https://www.merriam-webster.com/">https://www.merriam-webster.com/</a></strong></p>
 <p>正文翻譯：</p>
+<blockquote>
 <p>Inverse kinematics tuturial<br/>反向(Inverse)運動學(Kinematics)手把手教學(tutorial)</p>
-<p><span>This tutorial will try to explain how to use the </span><span style="color: #000080;"><a href="http://www.coppeliarobotics.com/helpFiles/en/inverseKinematicsModule.htm" style="color: #000080;">inverse kinematics functionality</a></span><span>, while building a 7 DoF redundant manipulator.</span><br/>本文章嘗試去解釋如何在建立一個七自由度冗餘機械手臂操作(7 DoF redundant manipulator)時，使用反向運度學功能(inverse kinematics functionlity)。</p>
-<p><span>But before that, make sure to have a look at the various simple example scenes related to IK and FK in folder </span><em>scenes.</em><br/>但是在那之前，先確定(make sure)了解幾個各式各樣簡單的範例，當中和<span>結合(folded：摺疊、合體的)狀況下 IK 和 FK 之間的關聯性。</span></p>
-<p><span>For this tutorial,we will build a non-dynamic manipulator, that just uses inverse kinematics without using any physics engine functionality<br/></span><span>手把手教學中我們會建立一個沒有物理引擎功能的反向運動機構，進行非動態(non-dynamic)的操作。</span></p>
-<p><span>The V-REP CAD data related to this tutorial ("redundantManipulator.stl") is located in V-REP's installation folder's "cadFiles" folder.<br/>本教學在 V-REP CAD 使用的檔案為"redundantManipulator.stl"</span><span>位於 V-REP 安裝資料夾" cadFiles"</span><span></span></p>
-<p><span>A V-REP <span style="color: #000080;"><a href="http://www.coppeliarobotics.com/helpFiles/en/scenes.htm" style="color: #000080;">scene</a></span> related to this tutorial can be found in V-REP's installation folder's "tutorials\InverseKinematics" folder.<br/>本教學可以在 V-REP 安裝資料夾 "tutorials\InverseKinematics"。</span><span></span></p>
-<p><span>Click [Menu bar --&gt; File --&gt; Import --&gt; Mesh...] then select the file to import. Also refer to the section on how to <a href="http://www.coppeliarobotics.com/helpFiles/en/importExport.htm"><span style="color: #000080;">import/export shapes</span></a>.<br/>[Menu bar --&gt; File --&gt; Import --&gt; Mesh...]選擇檔案並按上述步驟進行檔案匯入，再者可以參考(refer)<a href="http://www.coppeliarobotics.com/helpFiles/en/importExport.htm">import/export shapes</a>。<br/></span></p>
-<p>A dialog pops open asking about mesh scaling and mesh orientation. Click Ok. A single <span style="color: #000080;"><a href="http://www.coppeliarobotics.com/helpFiles/en/shapes.htm" style="color: #000080;">simple shape</a></span> was imported and is located in the middle of the scene. The shape also appears in the <span style="color: #000080;"><a href="http://www.coppeliarobotics.com/helpFiles/en/userInterface.htm#SceneHierarchy" style="color: #000080;">scene hierarchy</a></span> on the left hand side of the main window. <br/>彈出的對話視窗會詢問關於網格縮放(scaling)和網格取向(orientation)，點選"OK"後， 圖示 <a href="http://www.coppeliarobotics.com/helpFiles/en/shapes.htm">simple shape</a> 會出現在主操作畫面左側的 <a href="http://www.coppeliarobotics.com/helpFiles/en/userInterface.htm#SceneHierarchy">scene hierarchy</a> (hierarchy：等級制度)<span style="color: #808080;">中</span><span style="color: #808080;">，</span><span style="color: #808080;">模型也會匯入主操作</span>視窗中間的位置。</p>
-<p><span>Depending on how the original CAD data was exported, the imported CAD data could be at a different scale, different location, or even subdivided into several shapes.The assigned color of imported shapes is random.<br/>根據(Depending)原始輸出的建模參數，匯入的模型會出現不一樣的比例、位置、更甚至是細化(subdivide)的部分造型。顏色的分配是隨機的。</span><span></span></p>
-<p><span>Following figure shows the imported shape:<br/>根據數字呈現匯入的幾何造型：<br/></span><span></span></p>
-<p>As you can see, the import operation has left us with a single shape, where we expected several shapes. This means that we will have to divide the manipulator object ourselves: select the<span> </span><a href="http://www.coppeliarobotics.com/helpFiles/en/objects.htm">object</a><span> </span>(just click on it in the scene or the scene hierarchy), then click [Menu bar --&gt; Edit --&gt; Grouping/Merging --&gt; Divide selected shapes]. Following is what you should have:</p>
+<p>This tutorial will try to explain how to use the <a href="http://www.coppeliarobotics.com/helpFiles/en/inverseKinematicsModule.htm">inverse kinematics functionality</a>, while building a 7 DoF redundant manipulator.<br/>本文章嘗試去解釋如何在建立一個七自由度冗餘機械手臂操作(7 DoF redundant manipulator)時，使用反向運度學功能(inverse kinematics functionlity)。</p>
+<p>But before that, make sure to have a look at the various simple example scenes related to IK and FK in folder <em>scenes.</em><br/>但是在那之前，先確定(make sure)了解幾個各式各樣簡單的範例，當中和結合(folded：摺疊、合體的)狀況下 IK 和 FK 之間的關聯性。</p>
+<p>For this tutorial,we will build a non-dynamic manipulator, that just uses inverse kinematics without using any physics engine functionality<br/>手把手教學中我們會建立一個沒有物理引擎功能的反向運動機構，進行非動態(non-dynamic)的操作。</p>
+<p>The V-REP CAD data related to this tutorial ("redundantManipulator.stl") is located in V-REP's installation folder's "cadFiles" folder.<br/>本教學在 V-REP CAD 使用的檔案為"redundantManipulator.stl"位於 V-REP 安裝資料夾" cadFiles"</p>
+<p>A V-REP <a href="http://www.coppeliarobotics.com/helpFiles/en/scenes.htm">scene</a> related to this tutorial can be found in V-REP's installation folder's "tutorials\InverseKinematics" folder.<br/>本教學可以在 V-REP 安裝資料夾 "tutorials\InverseKinematics"。</p>
+<p>Click [Menu bar --&gt; File --&gt; Import --&gt; Mesh...] then select the file to import. Also refer to the section on how to <a href="http://www.coppeliarobotics.com/helpFiles/en/importExport.htm">import/export shapes</a>.<br/>[Menu bar --&gt; File --&gt; Import --&gt; Mesh...]選擇檔案並按上述步驟進行檔案匯入，再者可以參考(refer)<a href="http://www.coppeliarobotics.com/helpFiles/en/importExport.htm">import/export shapes</a>。</p>
+<p>A dialog pops open asking about mesh scaling and mesh orientation. Click Ok. A single <a href="http://www.coppeliarobotics.com/helpFiles/en/shapes.htm">simple shape</a> was imported and is located in the middle of the scene. The shape also appears in the <a href="http://www.coppeliarobotics.com/helpFiles/en/userInterface.htm#SceneHierarchy">scene hierarchy</a> on the left hand side of the main window. <br/>彈出的對話視窗會詢問關於網格縮放(scaling)和網格取向(orientation)，點選"OK"後， 圖示 <a href="http://www.coppeliarobotics.com/helpFiles/en/shapes.htm">simple shape</a> 會出現在主操作畫面左側的 <a href="http://www.coppeliarobotics.com/helpFiles/en/userInterface.htm#SceneHierarchy">scene hierarchy</a> (hierarchy：等級制度)中，模型也會匯入主操作視窗中間的位置。</p>
+<p>Depending on how the original CAD data was exported, the imported CAD data could be at a different scale, different location, or even subdivided into several shapes.The assigned color of imported shapes is random.<br/>根據(Depending)原始輸出的建模參數，匯入的模型會出現不一樣的比例、位置、更甚至是細化(subdivide)的部分造型。顏色的分配是隨機的。</p>
+<p>Following figure shows the imported shape:<br/>根據數字呈現匯入的幾何造型：</p>
+<p>As you can see, the import operation has left us with a single shape, where we expected several shapes.<br/>正如所示，匯入操作在工作室窗裡留下我們想要的幾種造型</p>
+<p>This means that we will have to divide the manipulator object ourselves: select the <a href="http://www.coppeliarobotics.com/helpFiles/en/objects.htm">object</a> (just click on it in the scene or the scene hierarchy), then click [Menu bar --&gt; Edit --&gt; Grouping/Merging --&gt; Divide selected shapes]. Following is what you should have:<br/>這意謂著我們必須自行去設置機械手的動作特徵：選擇object(僅需再工作視窗中點選、或是在工作視窗的 scene hierarchy 點選)，並且依序 [Menu bar --&gt; Edit --&gt; Grouping/Merging --&gt; Divide selected shapes]。以下是應該有的：</p>
+<p>The original shape was divided into several sub-shapes (see also the scene hierarchy). The shape division algorithm operates by grouping all triangles that are linked by common edges.<br/>原始的造型被設置成幾個分型 (也可以在 scene hierarchy )。模型部分的演算(algorithm)操作是由群組三角形邊緣相接合的組立而成。</p>
+<p>Depending on how the original mesh was created or exported, such a division procedure cannot be performed. In that case you will have to manually extract shapes in the<span> </span><a href="http://www.coppeliarobotics.com/helpFiles/en/triangleEditMode.htm">triangle edit mode</a>.<span> <br/>根據原始造型被創建或導出的網格，不能執行這樣的畫分程序。在這種情況下，你必須在 <a href="http://www.coppeliarobotics.com/helpFiles/en/triangleEditMode.htm">triangle edit mode</a> 下手動提取形狀。</span><span></span><span></span></p>
+<p>Next, we will change colors of the various objects so as to have a nice visual appearance.<br/>接下來我們將會改變各部件的顏色，<span lang="zh-TW">以便有一個很好的視覺外觀。</span></p>
+<p>First double-click a shape icon in the scene hierarchy. The<span> </span><a href="http://www.coppeliarobotics.com/helpFiles/en/shapeProperties.htm">shape properties</a><span> </span>dialog opens. While a shape is selected, click on<span> </span><strong>Adjust outside color</strong><span> </span>in the dialog: this will allow you to adjust the various color components of the outside faces of the selected shape.For now, just adjust the ambient/diffuse color component of your shapes.<br/>首先雙擊在 scene hierarchy 形狀圖標。形狀對話視窗彈出。選擇形狀時，單及對話視窗 <strong>Adjust outside color ：</strong><span lang="zh-TW">這將允許您調整所選形狀外部面的各種顏色分量，現在，只需調整形狀的環境/漫反射顏色分量即可。</span></p>
+<p>To transfer the color of one shape to another shape, select both shapes and make sure the last selected shape (indicated with a white bounding box) is the one you want to take the color from, then simply click the<span> </span><strong>Apply to selection</strong><span> </span>button in the<span> </span><strong>Colors</strong><span> </span>section of the shape dialog. Feel free to adjust other visual parameters too, like the<span> </span><strong>Shading angle</strong><span> </span>parameter, the<span> </span><strong>Edges width</strong><span> </span>or the<span> </span><strong>Edges color</strong>.<br/>要將一個形狀的顏色轉換無另一個形狀，請選擇兩個形狀並確保最後選擇的形狀(用白色邊框表示) <span lang="zh-TW">是您要從中獲取顏色的形狀，然後只需單擊“應用於”中的“應用於選擇”按鈕。形狀對話框的顏色部分。您也可以隨意調整其他視覺參數，例如“著色角度”參數，“邊緣”寬度或“邊緣”顏色。</span></p>
+<pre class="tw-data-text tw-ta tw-text-small" data-fulltext="" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><span lang="zh-TW"></span>Once you finished coloring, you might have following situation:</pre>
+<pre class="tw-data-text tw-ta tw-text-small" data-fulltext="" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><span lang="zh-TW">完成著色後，您可能會遇到以下情況：</span></pre>
 <p><b></b></p>
-<p><strong>：Opposite in order , nature , or ettect bing on inverse function</strong></p><h2>Week 12</h2>
+<p><strong>：Opposite in order , nature , or ettect bing on inverse function</strong></p>
+<p></p>
+</blockquote><h2>Week 12</h2>
 <p><strong>【 Heroku 與 Github 同步衝突 】</strong></p>
 <blockquote>
 <p>●流程：</p>
@@ -593,6 +604,13 @@
 <h2>40423217心得記錄</h2>
 <h2>40423214心得記錄</h2>
 <h2>40423252心得記錄</h2>
+<p>week10<br/>校慶運動會全校放假一天！慶祝學校創校38週年！</p>
+<p>week11<br/>本週開始進入分組專題作業，也建立了一個協同的環境以便小組在作業時更加便利以及達到同步的作用，以後在編輯時只要編輯小組倉儲即可的Heroku也會跟著一起同步。</p>
+<p>week12<br/>本週有討論並且確定了我們這組所要做的期末專題題目（機械手臂），也討論了小組網站會有哪些呈現內容，未來會將期末專題有關的資訊放入在小組網站裡。</p>
+<p>week13<br/>本週開始正式在搜尋跟期末分組作有關的資料探討，感覺越來越充實了，除了要用分組的作業，之前期中前的onshape作業也一樣要持續進行，這也讓生活上又充實了不少，組長與組員們也都很盡心盡力的在完成。</p>
+<p>week14<br/>本週練習了v-rep，對於v-rep已經也有一年沒碰了，也因為當初就非常地不熟悉，<br/>所以現在都陌生了，幸好跟著Inverse Kinematics（機械手臂）的教學漸漸的熟悉了，<br/>而下禮拜也要開始上台報告每一周的組內進度了;而在做完Inverse Kinematics（機械手臂）的教學後發現不能動，最後請組員幫忙檢查，發現是忘記設定旋轉軸為逆運動學模式以及場景的部件位置有放置錯誤的關係。</p>
+<p>week15<br/>小組終於在這周建立好了雲端協同的報告檔了，也把在報告檔案建立前所整理的資料都編輯上去了，但在本週老師檢查時，發現無法得知小組內容是由誰編輯的，之後也找到了查看的步驟，詳細皆在小組網站裡，這時發現雲端內還原來也會記錄我們每個人的編輯紀錄。</p>
+<p>week16<br/>本週仍然持續對於期末小組作業邁進，而且依照老師的要求錄製了3分鐘的課程學習報告影片，錄製影片前也順便看了這學期的所有推送紀錄內容，也順便做一個總瀏覽讓自己更了解這學期針對這門課程所學的東西有哪些。<br/><span style="color: #3366ff;">電腦輔助設計與實習-課程學習報告影片</span><br/><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/k5kLn00kO0s?t=11s" width="560"></iframe></p>
 <h2>40423126心得記錄</h2>
 <h1>Fianl_Report</h1>
 <ul style="list-style-type: circle;">
@@ -635,9 +653,11 @@
 </ul>
 <ol>
 <li>點選上方雲端Word進入連結<br/>★只有此文件共用google帳戶才能觀看(到時候將會給予老師帳戶權限！<b><br/></b></li></ol>
+<ul>
 <li>成功進入雲端word後，點選紅色框框進入歷史編輯紀錄<br/>★請先確認是否是此文件檔！<br/><img alt="" height="42" src="/images/2018-12-21_11-13-46.png" width="448"/></li>
 <li>進入版本紀錄後，可依據帳戶所對應的顏色，去對照內容裡文字的底色，即可了解是誰編輯的<br/>★可根據上方名稱表格做對照！<br/><img alt="" height="263" src="/images/p37_11-14-02.png" width="185"/></li>
 <li>如再點選時間軸，即會跳出更細部的編輯時間，還有當時的版本內容<br/><img alt="" height="559" src="/images/p37_11-14-44.png" width="174"/></li>
+</ul>
 <h1>Attend_&amp;_Absence</h1>
 <table border="1" style="border-collapse: collapse; width: 100%; height: 373px;">
 <tbody>
@@ -688,7 +708,7 @@
 <td style="width: 10%; height: 99px; text-align: center;">◇</td>
 <td style="width: 10%; height: 99px; text-align: center;">O</td>
 <td style="width: 10%; height: 99px; text-align: center;">O</td>
-<td style="width: 10%; height: 99px; text-align: center;"></td>
+<td style="width: 10%; height: 99px; text-align: center;">O</td>
 <td style="width: 10%; height: 99px; text-align: center;"></td>
 </tr>
 <tr style="height: 78px;">
@@ -718,7 +738,7 @@
 <td style="width: 10%; height: 49px; text-align: center;">O</td>
 <td style="width: 10%; height: 49px; text-align: center;">O</td>
 <td style="width: 10%; height: 49px; text-align: center;">O</td>
-<td style="width: 10%; height: 49px; text-align: center;"></td>
+<td style="width: 10%; height: 49px; text-align: center;">O</td>
 <td style="width: 10%; height: 49px; text-align: center;"></td>
 </tr>
 <tr style="height: 49px;">
@@ -733,7 +753,7 @@
 <td style="width: 10%; height: 49px; text-align: center;">O</td>
 <td style="width: 10%; height: 49px; text-align: center;">O</td>
 <td style="width: 10%; height: 49px; text-align: center;">O</td>
-<td style="width: 10%; height: 49px; text-align: center;"></td>
+<td style="width: 10%; height: 49px; text-align: center;">O</td>
 <td style="width: 10%; height: 49px; text-align: center;"></td>
 </tr>
 </tbody>
