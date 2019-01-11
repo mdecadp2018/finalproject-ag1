@@ -24,7 +24,10 @@
 <v t="leo.20180827201621.9" a="E"><vh>封面投影片</vh>
 <v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20180827201621.11"><vh>小組前言</vh>
+<v t="leo.20190111181947.1" a="E"><vh>組員名單</vh>
+<v t="leo.20190111181947.2"><vh>組員介紹</vh></v>
+</v>
+<v t="leo.20180827201621.11" a="E"><vh>小組前言</vh>
 <v t="leo.20190111144201.1" a="E"><vh>目錄</vh>
 <v t="leo.20180827201621.12"><vh></vh></v>
 </v>
@@ -66,16 +69,18 @@
 <v t="leo.20190111150840.9"><vh>小組進度</vh></v>
 </v>
 </v>
-<v t="leo.20190111142930.1" a="E"><vh>機械手臂介紹</vh>
+<v t="leo.20190111142930.1"><vh>機械手臂介紹</vh>
 <v t="leo.20190111151027.1" a="E"><vh>標題</vh>
 <v t="leo.20190111151027.2"><vh></vh></v>
+</v>
+<v t="leo.20190111181737.1" a="E"><vh>前言</vh>
+<v t="leo.20190111181737.2"><vh></vh></v>
 </v>
 <v t="leo.20190111142930.4" a="E"><vh>目的與動機</vh>
 <v t="leo.20190111142930.5"><vh>目的與動機</vh></v>
 </v>
-<v t="leo.20190111142930.6" a="E"><vh>做動原理</vh>
-<v t="leo.20190111142930.7"><vh>做動原理</vh></v>
-<v t="leo.20190111180902.1"><vh>做動方式</vh></v>
+<v t="leo.20190111142930.6" a="E"><vh>做動原理與方式</vh>
+<v t="leo.20190111142930.7"><vh>做動原理與方式</vh></v>
 </v>
 <v t="leo.20190111180744.1" a="E"><vh>設計概念</vh>
 <v t="leo.20190111180744.2"><vh>設計概念</vh></v>
@@ -525,9 +530,10 @@ make.start()
 
 						
 </t>
-<t tx="leo.20190111142930.7">## 做動原理
+<t tx="leo.20190111142930.7">## 做動原理與方式
 
-常見的機械手臂做動原理如下：
+* 常見的機械手臂做動原理如下：
+
 1.直角坐標型
 2.圓柱座標型
 3.球座標型
@@ -807,7 +813,6 @@ make.start()
 						
 </t>
 <t tx="leo.20190111151027.2">## 機械手臂介紹
-隨著科技和物聯網的發展，機械手臂在工業工廠生產線已不可或缺，且也已經運用得相當廣泛，不僅&lt;b&gt;&lt;font color="#FF0000"&gt;減少人力成本&lt;/font&gt;&lt;/b&gt;，又可&lt;b&gt;&lt;font color="#FF0000"&gt;增加工作效率、減少失誤率，顯示出機械手臂的重要性&lt;/font&gt;&lt;/b&gt;。
 
 * 目的與動機
 
@@ -923,12 +928,37 @@ make.start()
 
 
 </t>
-<t tx="leo.20190111180902.1">## 做動方式
+<t tx="leo.20190111181737.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
 
-等確定的完成品出來後再補上!!!
 
-
-
+						
 </t>
+<t tx="leo.20190111181737.2">## 前言
+
+隨著科技和物聯網的發展，機械手臂在工業工廠生產線已不可或缺，且也已經運用得相當廣泛，不僅&lt;b&gt;&lt;font color="#FFFF00"&gt;減少人力成本&lt;/font&gt;&lt;/b&gt;，又可&lt;b&gt;&lt;font color="#FFFF00"&gt;增加工作效率、減少失誤率，顯示出機械手臂的重要性&lt;/font&gt;&lt;/b&gt;。</t>
+<t tx="leo.20190111181947.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190111181947.2">## 組員介紹
+
+組長：
+* [40423217](https://mdecadp2018.github.io/site-40423217/content/index.html) -（期中自評; 70）
+
+組員：
+* [40423214](https://mdecadp2018.github.io/site-40423214/content/index.html) -（期中自評：76）
+
+* [40423252](https://mdecadp2018.github.io/site-40423252/content/index.html) -（期中自評：70）
+
+* [40423126](https://mdecadp2018.github.io/site-40423126/content/index.html) -（期中自評：71）</t>
 </tnodes>
 </leo_file>
