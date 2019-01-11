@@ -24,12 +24,12 @@
 <v t="leo.20180827201621.9" a="E"><vh>封面投影片</vh>
 <v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20180827201621.11" a="E"><vh>小組前言</vh>
+<v t="leo.20180827201621.11"><vh>小組前言</vh>
 <v t="leo.20190111144201.1" a="E"><vh>目錄</vh>
 <v t="leo.20180827201621.12"><vh></vh></v>
 </v>
 </v>
-<v t="leo.20190111150554.1" a="E"><vh>每周小組進度</vh>
+<v t="leo.20190111150554.1"><vh>每周小組進度</vh>
 <v t="leo.20190111144410.1" a="E"><vh>標題</vh>
 <v t="leo.20190111144410.2"><vh></vh></v>
 </v>
@@ -49,7 +49,7 @@
 <v t="leo.20190111143445.9"><vh>小組進度</vh></v>
 </v>
 </v>
-<v t="leo.20190111150840.1" a="E"><vh>每周成員分工內容</vh>
+<v t="leo.20190111150840.1"><vh>每周成員分工內容</vh>
 <v t="leo.20190111151008.1" a="E"><vh>標題</vh>
 <v t="leo.20190111151008.2"><vh></vh></v>
 </v>
@@ -70,14 +70,22 @@
 <v t="leo.20190111151027.1" a="E"><vh>標題</vh>
 <v t="leo.20190111151027.2"><vh></vh></v>
 </v>
-<v t="leo.20190111142930.4" a="E"><vh>規格</vh>
-<v t="leo.20190111142930.5"><vh>小組進度</vh></v>
+<v t="leo.20190111142930.4" a="E"><vh>目的與動機</vh>
+<v t="leo.20190111142930.5"><vh>目的與動機</vh></v>
 </v>
-<v t="leo.20190111142930.6" a="E"><vh>運動模式</vh>
-<v t="leo.20190111142930.7"><vh>小組進度</vh></v>
+<v t="leo.20190111142930.6" a="E"><vh>做動原理</vh>
+<v t="leo.20190111142930.7"><vh>做動原理</vh></v>
+<v t="leo.20190111180902.1"><vh>做動方式</vh></v>
+</v>
+<v t="leo.20190111180744.1" a="E"><vh>設計概念</vh>
+<v t="leo.20190111180744.2"><vh>設計概念</vh></v>
+</v>
+<v t="leo.20190111180437.1" a="E"><vh>其他</vh>
+<v t="leo.20190111172750.2"><vh>小組進度</vh></v>
+<v t="leo.20190111180437.2"><vh>小組進度</vh></v>
 </v>
 </v>
-<v t="leo.20190111142943.1" a="E"><vh>機構圖稿</vh>
+<v t="leo.20190111142943.1"><vh>機構圖稿</vh>
 <v t="leo.20190111151057.1" a="E"><vh>標題</vh>
 <v t="leo.20190111151057.2"><vh></vh></v>
 </v>
@@ -94,7 +102,7 @@
 <v t="leo.20190111142943.9"><vh>小組進度</vh></v>
 </v>
 </v>
-<v t="leo.20190111142757.1" a="E"><vh>V-rep分析</vh>
+<v t="leo.20190111142757.1"><vh>V-rep分析</vh>
 <v t="leo.20190111151121.1" a="E"><vh>標題</vh>
 <v t="leo.20190111151121.2"><vh></vh></v>
 </v>
@@ -109,6 +117,11 @@
 </v>
 <v t="leo.20190111142757.8" a="E"><vh>第四次版本</vh>
 <v t="leo.20190111142757.9"><vh>小組進度</vh></v>
+</v>
+</v>
+<v t="leo.20190111172151.1"><vh>結論</vh>
+<v t="leo.20190111172151.2" a="E"><vh>標題</vh>
+<v t="leo.20190111172151.3"><vh></vh></v>
 </v>
 </v>
 <v t="leo.20180827201621.13"><vh>各式內容引用範例</vh>
@@ -219,7 +232,9 @@ vertical: body pane on the botton</t>
 Created by [第一組](https://github.com/mdecadp2018/finalproject-ag1)
 &lt;/small&gt;
 
-[第一組網誌](https://mdecadp2018.github.io/finalproject-ag1/content/index.html)</t>
+[第一組網誌](https://mdecadp2018.github.io/finalproject-ag1/content/index.html)
+
+</t>
 <t tx="leo.20180827201621.11">&lt;section&gt;
 @others
 &lt;/section&gt;
@@ -233,10 +248,13 @@ Created by [第一組](https://github.com/mdecadp2018/finalproject-ag1)
 * 機械手臂介紹
 * 機構圖稿
 * V-rep分析
+* 結論
 
 &lt;small&gt;
 &lt;b&gt;&lt;font color="#FF8888"&gt;右箭頭&lt;/font&gt;&lt;/b&gt;切換目錄種類，&lt;b&gt;&lt;font color="#FF8888"&gt;下箭頭&lt;/font&gt;&lt;/b&gt;延續標題內容
-&lt;/small&gt;</t>
+&lt;/small&gt;
+
+</t>
 <t tx="leo.20180827201621.13">&lt;section&gt;
 @others
 &lt;/section&gt;
@@ -492,10 +510,9 @@ make.start()
 
 						
 </t>
-<t tx="leo.20190111142930.5">## 第12周小組進度
+<t tx="leo.20190111142930.5">## 目的與動機
 
-* 各自查詢機械手臂相關資訊，正在統整當中
-* 繪製[Onshape week7](https://cad.onshape.com/documents/f88fcd000b1c981e3741e4a7/v/b8b544d71bb7b59a11264be5/e/de09d714e2e70d2661660a83) 課綱及作業
+為了瞭解六軸機械手臂，藉由設計六軸機械手臂，了解一支機械手臂在設計的過程所要注重的細節以及藉由設計的過程學習相關知識，並且發現問題，尋找問題，解決問題。
 
 
 </t>
@@ -508,10 +525,14 @@ make.start()
 
 						
 </t>
-<t tx="leo.20190111142930.7">## 第13周小組進度
+<t tx="leo.20190111142930.7">## 做動原理
 
-* 使用雲端Word與組員一同編輯report，做出第一份PDF初稿
-* 繪製[Onshape week8](https://cad.onshape.com/documents/f88fcd000b1c981e3741e4a7/v/88827ff4bf450a7a7d5005df/e/8ea6921146c8d2ada378bbb0) 課綱及作業
+常見的機械手臂做動原理如下：
+1.直角坐標型
+2.圓柱座標型
+3.球座標型
+4.關節型
+而我們設計的機械手臂則是屬於圓柱座標型的，臂部可作升降、回轉和伸縮動作。
 
 
 
@@ -785,11 +806,13 @@ make.start()
 						
 </t>
 <t tx="leo.20190111151027.2">## 機械手臂介紹
+隨著科技和物聯網的發展，機械手臂在工業工廠生產線已不可或缺，且也已經運用得相當廣泛，不僅&lt;b&gt;&lt;font color="#FF0000"&gt;減少人力成本&lt;/font&gt;&lt;/b&gt;，又可&lt;b&gt;&lt;font color="#FF0000"&gt;增加工作效率、減少失誤率，顯示出機械手臂的重要性&lt;/font&gt;&lt;/b&gt;。
 
-* 原理
-* 規格
-* 運動模式
-</t>
+* 目的與動機
+
+* 做動原理
+
+* 設計概念</t>
 <t tx="leo.20190111151057.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -836,6 +859,74 @@ make.start()
 * 創建Heroku小組遠端同步網站
 * 繪製[Onshape week6](https://cad.onshape.com/documents/f88fcd000b1c981e3741e4a7/v/4dbc40f20ca06b4ce67bbb9d/e/de09d714e2e70d2661660a83) 課綱及作業
 * 專題題目定案：機械手臂
+
+</t>
+<t tx="leo.20190111172151.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20190111172151.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190111172151.3">## 結論
+
+從生出題目到進度規劃，然後再到組員的分工合作，雖然這個機構沒有到那麼的複雜及專業，但從原理到圖稿再到分析都是我們一步一腳印探索研究出來的。每個步驟都看得到我們討論的元素以及每個人頭腦裡不同的創意思想。無非是獨一無二的專題產品。
+　　對於模擬出來的分析以及圖稿的設計在上面我們皆有提出問題點，可以再進階的做改良，但其所擁有的功能都可以達到我們當初所構想的，能前後做動、能運送東西、能抵達六軸座標的方向。
+
+</t>
+<t tx="leo.20190111172750.2">## 第12周小組進度
+
+* 各自查詢機械手臂相關資訊，正在統整當中
+* 繪製[Onshape week7](https://cad.onshape.com/documents/f88fcd000b1c981e3741e4a7/v/b8b544d71bb7b59a11264be5/e/de09d714e2e70d2661660a83) 課綱及作業
+
+
+</t>
+<t tx="leo.20190111180437.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190111180437.2">## 第13周小組進度
+
+* 使用雲端Word與組員一同編輯report，做出第一份PDF初稿
+* 繪製[Onshape week8](https://cad.onshape.com/documents/f88fcd000b1c981e3741e4a7/v/88827ff4bf450a7a7d5005df/e/8ea6921146c8d2ada378bbb0) 課綱及作業
+
+
+
+</t>
+<t tx="leo.20190111180744.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190111180744.2">## 設計概念
+
+設計的過程中，不僅只是設計一個六軸機械手臂，也結合了鏟土機的做動方式應用在我們所設計的六軸機械手臂，而本次的機械手臂是由很多關節連結並在平面或三度空間進行其運動或是線性的位移運動，因此我們在主軸的連桿上（也就是Onshape Part 的前、上支架）添加了很多孔位，使我們的產品能在有限的平台空間上，藉由連桿與轉軸的變化使我們的手臂伸長或是縮短範圍。
+
+
+
+
+</t>
+<t tx="leo.20190111180902.1">## 做動方式
+
+等確定的完成品出來後再補上!!
+
+
 
 </t>
 </tnodes>
