@@ -32,7 +32,7 @@
 <v t="leo.20180827201621.12"><vh></vh></v>
 </v>
 </v>
-<v t="leo.20190111150554.1"><vh>每周小組進度</vh>
+<v t="leo.20190111150554.1" a="E"><vh>每周小組進度</vh>
 <v t="leo.20190111144410.1" a="E"><vh>標題</vh>
 <v t="leo.20190111144410.2"><vh></vh></v>
 </v>
@@ -57,16 +57,25 @@
 <v t="leo.20190111151008.2"><vh></vh></v>
 </v>
 <v t="leo.20190111150840.2" a="E"><vh>week11(11/23)</vh>
-<v t="leo.20190111150840.3"><vh>小組進度</vh></v>
+<v t="leo.20190111150840.3"><vh>分工內容</vh></v>
 </v>
 <v t="leo.20190111150840.4" a="E"><vh>week12(11/30)</vh>
-<v t="leo.20190111150840.5"><vh>小組進度</vh></v>
+<v t="leo.20190111150840.5"><vh>分工內容</vh></v>
 </v>
 <v t="leo.20190111150840.6" a="E"><vh>week13(12/7)</vh>
-<v t="leo.20190111150840.7"><vh>小組進度</vh></v>
+<v t="leo.20190111150840.7"><vh>分工內容</vh></v>
 </v>
 <v t="leo.20190111150840.8" a="E"><vh>week14(12/14)</vh>
-<v t="leo.20190111150840.9"><vh>小組進度</vh></v>
+<v t="leo.20190111150840.9"><vh>分工內容</vh></v>
+</v>
+<v t="leo.20190111212222.1" a="E"><vh>week15(12/21)</vh>
+<v t="leo.20190111212222.2"><vh>分工內容</vh></v>
+</v>
+<v t="leo.20190111212223.1" a="E"><vh>week16(12/28)</vh>
+<v t="leo.20190111212223.2"><vh>分工內容</vh></v>
+</v>
+<v t="leo.20190111212225.1" a="E"><vh>week17(1/4)</vh>
+<v t="leo.20190111212225.2"><vh>分工內容</vh></v>
 </v>
 </v>
 <v t="leo.20190111142930.1"><vh>機械手臂介紹</vh>
@@ -85,10 +94,6 @@
 <v t="leo.20190111180744.1" a="E"><vh>設計概念</vh>
 <v t="leo.20190111180744.2"><vh>設計概念</vh></v>
 </v>
-<v t="leo.20190111180437.1" a="E"><vh>其他</vh>
-<v t="leo.20190111172750.2"><vh>小組進度</vh></v>
-<v t="leo.20190111180437.2"><vh>小組進度</vh></v>
-</v>
 </v>
 <v t="leo.20190111142943.1"><vh>機構圖稿</vh>
 <v t="leo.20190111151057.1" a="E"><vh>標題</vh>
@@ -105,6 +110,9 @@
 </v>
 <v t="leo.20190111142943.8" a="E"><vh>第四次版本</vh>
 <v t="leo.20190111142943.9"><vh>小組進度</vh></v>
+</v>
+<v t="leo.20190111214130.1" a="E"><vh>第五次版本</vh>
+<v t="leo.20190111214130.2"><vh>小組進度</vh></v>
 </v>
 </v>
 <v t="leo.20190111142757.1"><vh>V-rep分析</vh>
@@ -124,7 +132,7 @@
 <v t="leo.20190111142757.9"><vh>小組進度</vh></v>
 </v>
 </v>
-<v t="leo.20190111172151.1"><vh>結論</vh>
+<v t="leo.20190111172151.1" a="E"><vh>結論</vh>
 <v t="leo.20190111172151.2" a="E"><vh>標題</vh>
 <v t="leo.20190111172151.3"><vh></vh></v>
 </v>
@@ -249,10 +257,15 @@ Created by [第一組](https://github.com/mdecadp2018/finalproject-ag1)
 <t tx="leo.20180827201621.12">## 小組任務目錄
 
 * 每周小組進度
+
 * 每周成員分工內容
+
 * 機械手臂介紹
+
 * 機構圖稿
+
 * V-rep分析
+
 * 結論
 
 &lt;small&gt;
@@ -535,8 +548,11 @@ make.start()
 * 常見的機械手臂做動原理如下：
 
 1.直角坐標型
+
 2.圓柱座標型
+
 3.球座標型
+
 4.關節型
 
 而我們設計的機械手臂則是屬於圓柱座標型的，臂部可作升降、回轉和伸縮動作。
@@ -560,8 +576,10 @@ make.start()
 </t>
 <t tx="leo.20190111142943.3">## 第一次版本
 
+[![alt text](https://i.imgur.com/b8RFsJ7.png "")](https://cad.onshape.com/documents/0d21c5431601451f54478ab2/v/0ab6bd03d0279b18dadfcef7/e/f43d68139d0557fc9506fcc7)
+&lt;small&gt;
 
-
+可點擊圖片進入連結
 </t>
 <t tx="leo.20190111142943.4">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -574,7 +592,10 @@ make.start()
 </t>
 <t tx="leo.20190111142943.5">## 第二次版本
 
+[![alt text](https://i.imgur.com/l1bt7Cu.png "")](https://cad.onshape.com/documents/0d21c5431601451f54478ab2/v/7ae273ca18e73b2ba84fcaf7/e/f43d68139d0557fc9506fcc7)
+&lt;small&gt;
 
+可點擊圖片進入連結
 
 
 </t>
@@ -589,7 +610,10 @@ make.start()
 </t>
 <t tx="leo.20190111142943.7">## 第三次版本
 
+[![alt text](https://i.imgur.com/dKxxbx3.png "")](https://cad.onshape.com/documents/0d21c5431601451f54478ab2/v/ed64863c7d056a3e650a6c69/e/f43d68139d0557fc9506fcc7)
+&lt;small&gt;
 
+可點擊圖片進入連結
 
 
 
@@ -605,7 +629,10 @@ make.start()
 </t>
 <t tx="leo.20190111142943.9">## 第四次版本
 
+[![alt text](https://i.imgur.com/AXv2QBv.png "")](https://cad.onshape.com/documents/0d21c5431601451f54478ab2/v/2c6c9fa49a2d6055ef78fc92/e/f43d68139d0557fc9506fcc7)
+&lt;small&gt;
 
+可點擊圖片進入連結
 </t>
 <t tx="leo.20190111143445.4">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -677,11 +704,17 @@ make.start()
 <t tx="leo.20190111144410.2">## 每周小組進度
 
 * week11進度
+
 * week12進度
+
 * week13進度
+
 * week14進度
+
 * week15進度
+
 * week16進度
+
 * week17進度
 
 </t>
@@ -704,11 +737,13 @@ make.start()
 
 						
 </t>
-<t tx="leo.20190111150840.3">## 第11周小組進度
+<t tx="leo.20190111150840.3">## 第11周組員工作內容
 
-* 創建Heroku小組遠端同步網站
-* 繪製[Onshape week6](https://cad.onshape.com/documents/f88fcd000b1c981e3741e4a7/v/4dbc40f20ca06b4ce67bbb9d/e/de09d714e2e70d2661660a83) 課綱及作業
-* 專題題目定案：機械手臂
+* 40423217：創建及撰寫小組網誌、統整小組專題題目
+* 40423214：找尋小組專題題目
+* 40423252：繪製Onshape week6 Lesson plan、找尋小組專題題目
+* 40423126：繪製Onshape week6 homework、找尋小組專題題目
+
 
 </t>
 <t tx="leo.20190111150840.4">&lt;section data-markdown&gt;
@@ -720,10 +755,12 @@ make.start()
 
 						
 </t>
-<t tx="leo.20190111150840.5">## 第12周小組進度
+<t tx="leo.20190111150840.5">## 第12周組員工作內容
 
-* 各自查詢機械手臂相關資訊，正在統整當中
-* 繪製[Onshape week7](https://cad.onshape.com/documents/f88fcd000b1c981e3741e4a7/v/b8b544d71bb7b59a11264be5/e/de09d714e2e70d2661660a83) 課綱及作業
+* 40423217：建立倉儲與heroku同步功能
+* 40423214：找尋小組專題題目
+* 40423252：繪製Onshape week7 homework
+* 40423126：繪製Onshape week7 Lesson plan
 
 
 </t>
@@ -736,10 +773,13 @@ make.start()
 
 						
 </t>
-<t tx="leo.20190111150840.7">## 第13周小組進度
+<t tx="leo.20190111150840.7">## 第13周組員工作內容
 
-* 使用雲端Word與組員一同編輯report，做出第一份PDF初稿
-* 繪製[Onshape week8](https://cad.onshape.com/documents/f88fcd000b1c981e3741e4a7/v/88827ff4bf450a7a7d5005df/e/8ea6921146c8d2ada378bbb0) 課綱及作業
+* 40423217：編輯小組網誌Issue內容
+* 40423214：繪製Onshape week8 homework
+* 40423252：繪製Onshape week8 Lesson plan、找尋機械手臂相關要件
+* 40423126：新增小組網誌Onshape內容
+
 
 
 
@@ -753,11 +793,13 @@ make.start()
 
 						
 </t>
-<t tx="leo.20190111150840.9">## 第14周小組進度
+<t tx="leo.20190111150840.9">## 第14周組員工作內容
 
-* 各組員自行繪製Vrep的手臂
-* 組長負責彙整各組員的操作精華
-* 繪製[Onshape week9](https://cad.onshape.com/documents/99f44813f94bb17995b9615e/v/b6cd6f7ef388b1a3bcbf5660/e/6cf181c64ab0aab44e492e9c) 課綱及作業
+* 40423217：翻譯及統整V-rep重點
+* 40423214：小組V-rep模擬分析+影片
+* 40423252：繪製Onshape week9 homework、找尋機械手臂相關要件
+* 40423126：繪製Onshape week9 Lesson plan
+
 
 </t>
 <t tx="leo.20190111150932.1">&lt;section data-markdown&gt;
@@ -771,18 +813,7 @@ make.start()
 </t>
 <t tx="leo.20190111150932.2">## 第11周小組進度
 
-&lt;b&gt;&lt;font color="#00DDAA"&gt;專題分工&lt;/font&gt;&lt;/b&gt;
-
-* 收集資料，確定研究方向
-* 利用Onshape繪製機構並組裝
-* 統整並呈現清晰易懂的專題介紹
-  
-&lt;b&gt;&lt;font color="#00DDAA"&gt;Onshape分工&lt;/font&gt;&lt;/b&gt;
-
-* 每周Lesson plan繪製(隔周與HW輪流交換)
-* 每周Homework繪製
-* 整理各周重點並張貼於網誌上
-
+&lt;iframe src="https://i.imgur.com/NYWTqgY.png" width="900" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 </t>
 <t tx="leo.20190111151008.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -795,13 +826,19 @@ make.start()
 </t>
 <t tx="leo.20190111151008.2">## 每周成員分工內容
 
-* week11進度
-* week12進度
-* week13進度
-* week14進度
-* week15進度
-* week16進度
-* week17進度
+* week11分工項目
+
+* week12分工項目
+
+* week13分工項目
+
+* week14分工項目
+
+* week15分工項目
+
+* week16分工項目
+
+* week17分工項目
 </t>
 <t tx="leo.20190111151027.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -818,7 +855,9 @@ make.start()
 
 * 做動原理
 
-* 設計概念</t>
+* 設計概念
+
+</t>
 <t tx="leo.20190111151057.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -830,10 +869,15 @@ make.start()
 </t>
 <t tx="leo.20190111151057.2">## 機構圖稿
 
-* [第一次版本](https://cad.onshape.com/documents/0d21c5431601451f54478ab2/v/0ab6bd03d0279b18dadfcef7/e/f43d68139d0557fc9506fcc7)
-* [第二次版本](https://cad.onshape.com/documents/0d21c5431601451f54478ab2/v/7ae273ca18e73b2ba84fcaf7/e/f43d68139d0557fc9506fcc7)
-* [第三次版本](https://cad.onshape.com/documents/0d21c5431601451f54478ab2/v/ed64863c7d056a3e650a6c69/e/f43d68139d0557fc9506fcc7)
-* [第四次版本](https://cad.onshape.com/documents/0d21c5431601451f54478ab2/v/2c6c9fa49a2d6055ef78fc92/e/f43d68139d0557fc9506fcc7)
+* 第一次版本
+
+* 第二次版本
+
+* 第三次版本
+
+* 第四次版本
+
+* 第五次版本
 </t>
 <t tx="leo.20190111151121.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -862,9 +906,9 @@ make.start()
 </t>
 <t tx="leo.20190111152803.2">## 第12周小組進度
 
-* 創建Heroku小組遠端同步網站
-* 繪製[Onshape week6](https://cad.onshape.com/documents/f88fcd000b1c981e3741e4a7/v/4dbc40f20ca06b4ce67bbb9d/e/de09d714e2e70d2661660a83) 課綱及作業
-* 專題題目定案：機械手臂
+&lt;iframe src="https://i.imgur.com/mVOgeuU.png" width="900" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+[Onshape week6](https://cad.onshape.com/documents/f88fcd000b1c981e3741e4a7/v/4dbc40f20ca06b4ce67bbb9d/e/de09d714e2e70d2661660a83) 
+
 
 </t>
 <t tx="leo.20190111172151.1">&lt;section&gt;
@@ -883,32 +927,9 @@ make.start()
 </t>
 <t tx="leo.20190111172151.3">## 結論
 
-從生出題目到進度規劃，然後再到組員的分工合作，雖然這個機構沒有到那麼的複雜及專業，但從原理到圖稿再到分析都是我們一步一腳印探索研究出來的。每個步驟都看得到我們討論的元素以及每個人頭腦裡不同的創意思想。無非是獨一無二的專題產品。
+　　從生出題目到進度規劃，然後再到組員的分工合作，雖然這個機構沒有到那麼的複雜及專業，但從原理到圖稿再到分析都是我們一步一腳印探索研究出來的。每個步驟都看得到我們討論的元素以及每個人頭腦裡不同的創意思想。無非是獨一無二的專題產品。
+        
 　　對於模擬出來的分析以及圖稿的設計在上面我們皆有提出問題點，可以再進階的做改良，但其所擁有的功能都可以達到我們當初所構想的，能前後做動、能運送東西、能抵達六軸座標的方向。
-
-</t>
-<t tx="leo.20190111172750.2">## 第12周小組進度
-
-* 各自查詢機械手臂相關資訊，正在統整當中
-* 繪製[Onshape week7](https://cad.onshape.com/documents/f88fcd000b1c981e3741e4a7/v/b8b544d71bb7b59a11264be5/e/de09d714e2e70d2661660a83) 課綱及作業
-
-
-</t>
-<t tx="leo.20190111180437.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20190111180437.2">## 第13周小組進度
-
-* 使用雲端Word與組員一同編輯report，做出第一份PDF初稿
-* 繪製[Onshape week8](https://cad.onshape.com/documents/f88fcd000b1c981e3741e4a7/v/88827ff4bf450a7a7d5005df/e/8ea6921146c8d2ada378bbb0) 課綱及作業
-
-
 
 </t>
 <t tx="leo.20190111180744.1">&lt;section data-markdown&gt;
@@ -939,7 +960,9 @@ make.start()
 </t>
 <t tx="leo.20190111181737.2">## 前言
 
-隨著科技和物聯網的發展，機械手臂在工業工廠生產線已不可或缺，且也已經運用得相當廣泛，不僅&lt;b&gt;&lt;font color="#FFFF00"&gt;減少人力成本&lt;/font&gt;&lt;/b&gt;，又可&lt;b&gt;&lt;font color="#FFFF00"&gt;增加工作效率、減少失誤率，顯示出機械手臂的重要性&lt;/font&gt;&lt;/b&gt;。</t>
+隨著科技和物聯網的發展，機械手臂在工業工廠生產線已不可或缺，且也已經運用得相當廣泛，不僅&lt;b&gt;&lt;font color="#FFFF00"&gt;減少人力成本&lt;/font&gt;&lt;/b&gt;，又可&lt;b&gt;&lt;font color="#FFFF00"&gt;增加工作效率、減少失誤率，顯示出機械手臂的重要性&lt;/font&gt;&lt;/b&gt;。
+
+</t>
 <t tx="leo.20190111181947.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -952,13 +975,87 @@ make.start()
 <t tx="leo.20190111181947.2">## 組員介紹
 
 組長：
-* [40423217](https://mdecadp2018.github.io/site-40423217/content/index.html) -（期中自評; 70）
+* [40423217](https://mdecadp2018.github.io/site-40423217/content/index.html) -（期中自評：70）
 
 組員：
 * [40423214](https://mdecadp2018.github.io/site-40423214/content/index.html) -（期中自評：76）
 
 * [40423252](https://mdecadp2018.github.io/site-40423252/content/index.html) -（期中自評：70）
 
-* [40423126](https://mdecadp2018.github.io/site-40423126/content/index.html) -（期中自評：71）</t>
+* [40423126](https://mdecadp2018.github.io/site-40423126/content/index.html) -（期中自評：71）
+
+</t>
+<t tx="leo.20190111212222.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190111212222.2">## 第15周組員工作內容
+
+* 40423217：編輯小組網誌、翻譯及統整V-rep重點
+* 40423214：V-rep分析專題機構並做問題回報
+* 40423252：確認機械手臂做動及規格、繪製Onshape week10 Lesson plan
+* 40423126：繪製專題機構零件並組裝、繪製Onshape week10 Homework
+
+
+
+</t>
+<t tx="leo.20190111212223.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190111212223.2">## 第16周組員工作內容
+
+* 40423217：編輯小組網誌內容
+* 40423214：V-rep分析專題機構並做問題回報(與繪製版本同步進行)
+* 40423252：繪製Onshape week12(半成品)
+* 40423126：修改專題機構零件並組裝、繪製Onshape week11
+
+
+</t>
+<t tx="leo.20190111212225.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190111212225.2">## 第17周組員工作內容
+
+* 40423217：編輯Final Report、編輯小組網誌內容
+* 40423214：編輯Final Report、V-rep分析專題機構並做問題回報
+* 40423252：編輯Final Report、V-rep分析專題機構並做問題回報
+* 40423126：編輯Final Report、修改專題機構零件並組裝
+
+
+
+</t>
+<t tx="leo.20190111214130.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190111214130.2">## 第五次版本
+
+[![alt text](https://i.imgur.com/1Ol4xNc.png "")](https://cad.onshape.com/documents/0d21c5431601451f54478ab2/v/2e63dc1685f88213fa31edad/e/4e6b76863a2416f87680aab4)
+&lt;small&gt;
+
+可點擊圖片進入連結
+</t>
 </tnodes>
 </leo_file>
