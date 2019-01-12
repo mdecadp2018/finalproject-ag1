@@ -32,7 +32,7 @@
 <v t="leo.20180827201621.12"><vh></vh></v>
 </v>
 </v>
-<v t="leo.20190111150554.1" a="E"><vh>每周小組進度</vh>
+<v t="leo.20190111150554.1"><vh>每周小組進度</vh>
 <v t="leo.20190111144410.1" a="E"><vh>標題</vh>
 <v t="leo.20190111144410.2"><vh></vh></v>
 </v>
@@ -50,6 +50,12 @@
 </v>
 <v t="leo.20190111143445.8" a="E"><vh>week15(12/21)</vh>
 <v t="leo.20190111143445.9"><vh>小組進度</vh></v>
+</v>
+<v t="leo.20190112145558.1" a="E"><vh>week16(12/28)</vh>
+<v t="leo.20190112145558.2"><vh>小組進度</vh></v>
+</v>
+<v t="leo.20190112145600.1" a="E"><vh>week17(1/4)</vh>
+<v t="leo.20190112145600.2"><vh>小組進度</vh></v>
 </v>
 </v>
 <v t="leo.20190111150840.1"><vh>每周成員分工內容</vh>
@@ -78,12 +84,15 @@
 <v t="leo.20190111212225.2"><vh>分工內容</vh></v>
 </v>
 </v>
-<v t="leo.20190111142930.1"><vh>機械手臂介紹</vh>
+<v t="leo.20190111142930.1" a="E"><vh>機械手臂介紹</vh>
 <v t="leo.20190111151027.1" a="E"><vh>標題</vh>
 <v t="leo.20190111151027.2"><vh></vh></v>
 </v>
+<v t="leo.20190112154611.1" a="E"><vh>前言</vh>
+<v t="leo.20190112154611.2"><vh>圖示</vh></v>
+</v>
 <v t="leo.20190111181737.1" a="E"><vh>前言</vh>
-<v t="leo.20190111181737.2"><vh></vh></v>
+<v t="leo.20190111181737.2"><vh>文字敘述</vh></v>
 </v>
 <v t="leo.20190111142930.4" a="E"><vh>目的與動機</vh>
 <v t="leo.20190111142930.5"><vh>目的與動機</vh></v>
@@ -91,8 +100,11 @@
 <v t="leo.20190111142930.6" a="E"><vh>做動原理與方式</vh>
 <v t="leo.20190111142930.7"><vh>做動原理與方式</vh></v>
 </v>
-<v t="leo.20190111180744.1" a="E"><vh>設計概念</vh>
-<v t="leo.20190111180744.2"><vh>設計概念</vh></v>
+<v t="leo.20190112154923.1"><vh>設計概念</vh>
+<v t="leo.20190112154923.2"><vh>圖示</vh></v>
+</v>
+<v t="leo.20190111180744.1"><vh>設計概念</vh>
+<v t="leo.20190111180744.2"><vh>文字敘述</vh></v>
 </v>
 </v>
 <v t="leo.20190111142943.1"><vh>機構圖稿</vh>
@@ -135,17 +147,6 @@
 <v t="leo.20190111172151.1" a="E"><vh>結論</vh>
 <v t="leo.20190111172151.2" a="E"><vh>標題</vh>
 <v t="leo.20190111172151.3"><vh></vh></v>
-</v>
-</v>
-<v t="leo.20180827201621.13"><vh>各式內容引用範例</vh>
-<v t="leo.20180827201621.14" a="E"><vh>導入數學符號與方程式</vh>
-<v t="leo.20180827201621.15"><vh>LaTeX 格式方程式</vh></v>
-</v>
-<v t="leo.20180827201621.16" a="E"><vh>導入縮排程式碼</vh>
-<v t="leo.20180827201621.17"><vh>引用程式碼</vh></v>
-</v>
-<v t="leo.20180827201621.18"><vh>導入影片</vh>
-<v t="leo.20180827201621.19"><vh>iframe 導入影片</vh></v>
 </v>
 </v>
 </v>
@@ -273,83 +274,6 @@ Created by [第一組](https://github.com/mdecadp2018/finalproject-ag1)
 &lt;/small&gt;
 
 </t>
-<t tx="leo.20180827201621.13">&lt;section&gt;
-@others
-&lt;/section&gt;
-
-</t>
-<t tx="leo.20180827201621.14">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20180827201621.15"># 數學符號與方程式
-
-Inline math equations go in like so: $\omega = d\phi / dt$. Display
-math should get its own line and be put in in double-dollarsigns:
-
-$$I = \int \rho R^{2} dV$$
-</t>
-<t tx="leo.20180827201621.16">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20180827201621.17">## 利用 Markdown 寫投影片
-以下利用 Markdown 格式展示 Python 程式碼:
-```
-@language python
-# use threading and subprocess to threading the make process
-import os
-import subprocess
-import threading
-
-def domake():
-    
-    path = "../exposed/api/exposed"
-    ubuntu = "../Ubuntu"
-    
-    # create obj path
-    
-    if not os.path.exists(path+"/../obj"):
-        os.makedirs(path+"/../obj")
-    
-    subprocess.call(["make", "clean"], cwd=path)
-    subprocess.call("make", cwd=path)
-    subprocess.call(["cp", "{libslvs.so, _slvs.so, slvs.py}", ubuntu], cwd=path)
-    subprocess.call(["python3", "circle_ex.py"], cwd=path+"/"+ubuntu)
-    
-make = threading.Thread(target=domake)
-make.start()
-```
-</t>
-<t tx="leo.20180827201621.18">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20180827201621.19">## 使用 iframe 導入影片
-
-### 導入影片 template
-
-&lt;iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-</t>
 <t tx="leo.20180827201621.2"></t>
 <t tx="leo.20180827201621.3">@language xml
 @tabwidth -4
@@ -460,9 +384,7 @@ make.start()
 </t>
 <t tx="leo.20190111142757.3">## 第11周小組進度
 
-* 創建Heroku小組遠端同步網站
-* 繪製[Onshape week6](https://cad.onshape.com/documents/f88fcd000b1c981e3741e4a7/v/4dbc40f20ca06b4ce67bbb9d/e/de09d714e2e70d2661660a83) 課綱及作業
-* 專題題目定案：機械手臂
+
 
 </t>
 <t tx="leo.20190111142757.4">&lt;section data-markdown&gt;
@@ -476,8 +398,7 @@ make.start()
 </t>
 <t tx="leo.20190111142757.5">## 第12周小組進度
 
-* 各自查詢機械手臂相關資訊，正在統整當中
-* 繪製[Onshape week7](https://cad.onshape.com/documents/f88fcd000b1c981e3741e4a7/v/b8b544d71bb7b59a11264be5/e/de09d714e2e70d2661660a83) 課綱及作業
+
 
 
 </t>
@@ -492,8 +413,7 @@ make.start()
 </t>
 <t tx="leo.20190111142757.7">## 第13周小組進度
 
-* 使用雲端Word與組員一同編輯report，做出第一份PDF初稿
-* 繪製[Onshape week8](https://cad.onshape.com/documents/f88fcd000b1c981e3741e4a7/v/88827ff4bf450a7a7d5005df/e/8ea6921146c8d2ada378bbb0) 課綱及作業
+
 
 
 
@@ -508,10 +428,6 @@ make.start()
 						
 </t>
 <t tx="leo.20190111142757.9">## 第14周小組進度
-
-* 各組員自行繪製Vrep的手臂
-* 組長負責彙整各組員的操作精華
-* 繪製[Onshape week9](https://cad.onshape.com/documents/99f44813f94bb17995b9615e/v/b6cd6f7ef388b1a3bcbf5660/e/6cf181c64ab0aab44e492e9c) 課綱及作業
 
 </t>
 <t tx="leo.20190111142930.1">&lt;section&gt;
@@ -645,8 +561,9 @@ make.start()
 </t>
 <t tx="leo.20190111143445.5">## 第13周小組進度
 
-* 各自查詢機械手臂相關資訊，正在統整當中
-* 繪製[Onshape week7](https://cad.onshape.com/documents/f88fcd000b1c981e3741e4a7/v/b8b544d71bb7b59a11264be5/e/de09d714e2e70d2661660a83) 課綱及作業
+&lt;iframe src="https://i.imgur.com/03VQJBR.png" width="900" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+[Onshape week7](https://cad.onshape.com/documents/f88fcd000b1c981e3741e4a7/v/b8b544d71bb7b59a11264be5/e/de09d714e2e70d2661660a83)
+
 
 
 </t>
@@ -661,8 +578,9 @@ make.start()
 </t>
 <t tx="leo.20190111143445.7">## 第14周小組進度
 
-* 使用雲端Word與組員一同編輯report，做出第一份PDF初稿
-* 繪製[Onshape week8](https://cad.onshape.com/documents/f88fcd000b1c981e3741e4a7/v/88827ff4bf450a7a7d5005df/e/8ea6921146c8d2ada378bbb0) 課綱及作業
+&lt;iframe src="https://i.imgur.com/fLk6Nti.png" width="900" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+[Onshape week8](https://cad.onshape.com/documents/f88fcd000b1c981e3741e4a7/v/88827ff4bf450a7a7d5005df/e/8ea6921146c8d2ada378bbb0)
+
 
 
 
@@ -678,9 +596,9 @@ make.start()
 </t>
 <t tx="leo.20190111143445.9">## 第15周小組進度
 
-* 各組員自行繪製Vrep的手臂
-* 組長負責彙整各組員的操作精華
-* 繪製[Onshape week9](https://cad.onshape.com/documents/99f44813f94bb17995b9615e/v/b6cd6f7ef388b1a3bcbf5660/e/6cf181c64ab0aab44e492e9c) 課綱及作業
+&lt;iframe src="https://i.imgur.com/860ganw.png" width="900" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+[Onshape week9](https://cad.onshape.com/documents/99f44813f94bb17995b9615e/v/b6cd6f7ef388b1a3bcbf5660/e/6cf181c64ab0aab44e492e9c)
+
 
 </t>
 <t tx="leo.20190111144201.1">&lt;section data-markdown&gt;
@@ -851,11 +769,13 @@ make.start()
 </t>
 <t tx="leo.20190111151027.2">## 機械手臂介紹
 
+* 前言(圖示)
+
 * 目的與動機
 
 * 做動原理
 
-* 設計概念
+* 設計概念(圖示)
 
 </t>
 <t tx="leo.20190111151057.1">&lt;section data-markdown&gt;
@@ -891,8 +811,11 @@ make.start()
 <t tx="leo.20190111151121.2">## V-rep分析
 
 * 第一次版本
+
 * 第二次版本
+
 * 第三次版本
+
 * 第四次版本
 </t>
 <t tx="leo.20190111152803.1">&lt;section data-markdown&gt;
@@ -906,7 +829,7 @@ make.start()
 </t>
 <t tx="leo.20190111152803.2">## 第12周小組進度
 
-&lt;iframe src="https://i.imgur.com/mVOgeuU.png" width="900" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe src="https://i.imgur.com/tYENE20.png" width="900" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 [Onshape week6](https://cad.onshape.com/documents/f88fcd000b1c981e3741e4a7/v/4dbc40f20ca06b4ce67bbb9d/e/de09d714e2e70d2661660a83) 
 
 
@@ -941,7 +864,7 @@ make.start()
 
 						
 </t>
-<t tx="leo.20190111180744.2">## 設計概念
+<t tx="leo.20190111180744.2">
 
 設計的過程中，不僅只是設計一個六軸機械手臂，也結合了鏟土機的做動方式應用在我們所設計的六軸機械手臂，而本次的機械手臂是由很多關節連結並在平面或三度空間進行其運動或是線性的位移運動，因此我們在主軸的連桿上（也就是Onshape Part 的前、上支架）添加了很多孔位，使我們的產品能在有限的平台空間上，藉由連桿與轉軸的變化使我們的手臂伸長或是縮短範圍。
 
@@ -958,7 +881,7 @@ make.start()
 
 						
 </t>
-<t tx="leo.20190111181737.2">## 前言
+<t tx="leo.20190111181737.2">
 
 隨著科技和物聯網的發展，機械手臂在工業工廠生產線已不可或缺，且也已經運用得相當廣泛，不僅&lt;b&gt;&lt;font color="#FFFF00"&gt;減少人力成本&lt;/font&gt;&lt;/b&gt;，又可&lt;b&gt;&lt;font color="#FFFF00"&gt;增加工作效率、減少失誤率，顯示出機械手臂的重要性&lt;/font&gt;&lt;/b&gt;。
 
@@ -1056,6 +979,72 @@ make.start()
 &lt;small&gt;
 
 可點擊圖片進入連結
+</t>
+<t tx="leo.20190112145558.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190112145558.2">## 第16周小組進度
+
+&lt;iframe src="https://i.imgur.com/CscRNs5.png" width="900" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+[Onshape week10](https://cad.onshape.com/documents/99f44813f94bb17995b9615e/v/93ff3cde5e7c449938bf86c0/e/6cf181c64ab0aab44e492e9c)
+
+
+</t>
+<t tx="leo.20190112145600.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190112145600.2">## 第17周小組進度
+
+&lt;iframe src="https://i.imgur.com/6tbS7q7.png" width="900" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+[Onshape week11](https://cad.onshape.com/documents/99f44813f94bb17995b9615e/v/2627bfd245e790a24a6f6895/e/6cf181c64ab0aab44e492e9c)
+
+
+</t>
+<t tx="leo.20190112154611.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190112154611.2">## 前言
+
+&lt;iframe src="https://i.imgur.com/oPYFSY5.png" width="900" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;small&gt;
+下頁有文字敘述說明
+
+
+</t>
+<t tx="leo.20190112154923.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190112154923.2">## 設計概念
+
+&lt;iframe src="https://i.imgur.com/CfbrgZg.png" width="900" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;small&gt;
+下頁有文字敘述說明
+
+
 </t>
 </tnodes>
 </leo_file>
