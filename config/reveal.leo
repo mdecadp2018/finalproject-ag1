@@ -127,7 +127,7 @@
 <v t="leo.20190111214130.2"><vh>小組進度</vh></v>
 </v>
 </v>
-<v t="leo.20190111142757.1"><vh>V-rep分析</vh>
+<v t="leo.20190111142757.1" a="E"><vh>V-rep分析</vh>
 <v t="leo.20190111151121.1" a="E"><vh>標題</vh>
 <v t="leo.20190111151121.2"><vh></vh></v>
 </v>
@@ -137,11 +137,11 @@
 <v t="leo.20190111142757.4" a="E"><vh>第二次版本</vh>
 <v t="leo.20190111142757.5"><vh>小組進度</vh></v>
 </v>
-<v t="leo.20190111142757.6" a="E"><vh>第三次版本</vh>
+<v t="leo.20190111142757.6" a="E"><vh>第三次版本(錯誤)</vh>
 <v t="leo.20190111142757.7"><vh>小組進度</vh></v>
 </v>
-<v t="leo.20190111142757.8" a="E"><vh>第四次版本</vh>
-<v t="leo.20190111142757.9"><vh>小組進度</vh></v>
+<v t="leo.20190113221347.1" a="E"><vh>第三次版本(成功)</vh>
+<v t="leo.20190113221347.2"><vh>小組進度</vh></v>
 </v>
 </v>
 <v t="leo.20190111172151.1" a="E"><vh>結論</vh>
@@ -382,11 +382,13 @@ Created by [第一組](https://github.com/mdecadp2018/finalproject-ag1)
 
 						
 </t>
-<t tx="leo.20190111142757.3">## 第11周小組進度
+<t tx="leo.20190111142757.3">## v-rep第一版本
 
+* 描述：
+前後設一個旋轉軸、左右轉設一個旋轉軸、 產子那邊再設一個旋轉軸；但彼此無法達到連動關係，因為旋轉軸會各自一直持續逆時針或順時針旋轉如第一個影片，因此要等到達一定的位置後按暫停然後再調整，如第二個影片顯示。
 
-
-</t>
+* 1 https://youtu.be/y8XBA-KPJUA
+* 2 https://youtu.be/35FcB9jzyhk</t>
 <t tx="leo.20190111142757.4">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -396,8 +398,12 @@ Created by [第一組](https://github.com/mdecadp2018/finalproject-ag1)
 
 						
 </t>
-<t tx="leo.20190111142757.5">## 第12周小組進度
+<t tx="leo.20190111142757.5">## v-rep第二版本
 
+* 描述：
+就像第14週的反向運動學v-rep的練習一樣，利用一個白球帶動整個手臂做動。
+
+https://youtu.be/Nhqg-WxGrys
 
 
 
@@ -411,23 +417,13 @@ Created by [第一組](https://github.com/mdecadp2018/finalproject-ag1)
 
 						
 </t>
-<t tx="leo.20190111142757.7">## 第13周小組進度
+<t tx="leo.20190111142757.7">## v-rep第三版本(錯誤版)
 
+* 描述：
+如影片箭頭所指的地方，我們在那邊設定Dummy外部連接，但影片做動時，卻沒有連接起來。
 
+https://youtu.be/4N_Gi1ALPUE
 
-
-
-</t>
-<t tx="leo.20190111142757.8">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20190111142757.9">## 第14周小組進度
 
 </t>
 <t tx="leo.20190111142930.1">&lt;section&gt;
@@ -814,9 +810,8 @@ Created by [第一組](https://github.com/mdecadp2018/finalproject-ag1)
 
 * 第二次版本
 
-* 第三次版本
+* 第三次版本(錯誤版/最終成功版)
 
-* 第四次版本
 </t>
 <t tx="leo.20190111152803.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -1045,6 +1040,21 @@ Created by [第一組](https://github.com/mdecadp2018/finalproject-ag1)
 下頁有文字敘述說明
 
 
+</t>
+<t tx="leo.20190113221347.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190113221347.2">## v-rep第三版本(最終成功)
+
+最後發現是排序的問題有誤，以及Dummy外部連接設定數量跟位置也有錯誤，最後終於成功做動了，而位置的更動可以與前一支影片做比較。
+
+https://www.youtube.com/watch?v=QNHa15ZsYac&amp;feature=youtu.be
 </t>
 </tnodes>
 </leo_file>
