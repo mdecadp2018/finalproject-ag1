@@ -21,13 +21,13 @@
 <v t="leo.20180827201621.6" a="E"><vh>body</vh>
 <v t="leo.20180827201621.7" a="E"><vh>reveal div</vh>
 <v t="leo.20180827201621.8" a="E"><vh>slides div</vh>
-<v t="leo.20180827201621.9" a="E"><vh>封面投影片</vh>
+<v t="leo.20180827201621.9"><vh>封面投影片</vh>
 <v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20190111181947.1" a="E"><vh>組員名單</vh>
+<v t="leo.20190111181947.1"><vh>組員名單</vh>
 <v t="leo.20190111181947.2"><vh>組員介紹</vh></v>
 </v>
-<v t="leo.20180827201621.11" a="E"><vh>小組前言</vh>
+<v t="leo.20180827201621.11"><vh>小組前言</vh>
 <v t="leo.20190111144201.1" a="E"><vh>目錄</vh>
 <v t="leo.20180827201621.12"><vh></vh></v>
 </v>
@@ -84,7 +84,7 @@
 <v t="leo.20190111212225.2"><vh>分工內容</vh></v>
 </v>
 </v>
-<v t="leo.20190111142930.1" a="E"><vh>機械手臂介紹</vh>
+<v t="leo.20190111142930.1"><vh>機械手臂介紹</vh>
 <v t="leo.20190111151027.1" a="E"><vh>標題</vh>
 <v t="leo.20190111151027.2"><vh></vh></v>
 </v>
@@ -100,14 +100,14 @@
 <v t="leo.20190111142930.6" a="E"><vh>做動原理與方式</vh>
 <v t="leo.20190111142930.7"><vh>做動原理與方式</vh></v>
 </v>
-<v t="leo.20190112154923.1"><vh>設計概念</vh>
+<v t="leo.20190112154923.1" a="E"><vh>設計概念</vh>
 <v t="leo.20190112154923.2"><vh>圖示</vh></v>
 </v>
-<v t="leo.20190111180744.1"><vh>設計概念</vh>
+<v t="leo.20190111180744.1" a="E"><vh>設計概念</vh>
 <v t="leo.20190111180744.2"><vh>文字敘述</vh></v>
 </v>
 </v>
-<v t="leo.20190111142943.1"><vh>機構圖稿</vh>
+<v t="leo.20190111142943.1" a="E"><vh>機構圖稿</vh>
 <v t="leo.20190111151057.1" a="E"><vh>標題</vh>
 <v t="leo.20190111151057.2"><vh></vh></v>
 </v>
@@ -132,16 +132,22 @@
 <v t="leo.20190111151121.2"><vh></vh></v>
 </v>
 <v t="leo.20190111142757.2" a="E"><vh>第一次版本</vh>
-<v t="leo.20190111142757.3"><vh>小組進度</vh></v>
+<v t="leo.20190111142757.3"><vh>描述</vh></v>
+</v>
+<v t="leo.20190115112514.1" a="E"><vh>第一次版本</vh>
+<v t="leo.20190115112514.2"><vh>影片1</vh></v>
+</v>
+<v t="leo.20190115112527.1" a="E"><vh>第一次版本</vh>
+<v t="leo.20190115112527.2"><vh>影片2</vh></v>
 </v>
 <v t="leo.20190111142757.4" a="E"><vh>第二次版本</vh>
-<v t="leo.20190111142757.5"><vh>小組進度</vh></v>
+<v t="leo.20190111142757.5"><vh>描述+影片</vh></v>
 </v>
 <v t="leo.20190111142757.6" a="E"><vh>第三次版本(錯誤)</vh>
-<v t="leo.20190111142757.7"><vh>小組進度</vh></v>
+<v t="leo.20190111142757.7"><vh>描述+影片</vh></v>
 </v>
 <v t="leo.20190113221347.1" a="E"><vh>第三次版本(成功)</vh>
-<v t="leo.20190113221347.2"><vh>小組進度</vh></v>
+<v t="leo.20190113221347.2"><vh>描述+影片</vh></v>
 </v>
 </v>
 <v t="leo.20190111172151.1" a="E"><vh>結論</vh>
@@ -385,10 +391,12 @@ Created by [第一組](https://github.com/mdecadp2018/finalproject-ag1)
 <t tx="leo.20190111142757.3">## v-rep第一版本
 
 * 描述：
-前後設一個旋轉軸、左右轉設一個旋轉軸、 產子那邊再設一個旋轉軸；但彼此無法達到連動關係，因為旋轉軸會各自一直持續逆時針或順時針旋轉如第一個影片，因此要等到達一定的位置後按暫停然後再調整，如第二個影片顯示。
+前後設一個旋轉軸、左右轉設一個旋轉軸、 產子那邊再設一個旋轉軸；但彼此無法達到連動關係，因為旋轉軸會各自一直持續逆時針或順時針旋轉如&lt;b&gt;&lt;font color="#FFFF00"&gt;第一個影片&lt;/font&gt;&lt;/b&gt;，因此要等到達一定的位置後按暫停然後再調整，如&lt;b&gt;&lt;font color="#FFBB00"&gt;第二個影片&lt;/font&gt;&lt;/b&gt;顯示。
 
-* 1 https://youtu.be/y8XBA-KPJUA
-* 2 https://youtu.be/35FcB9jzyhk</t>
+
+
+&lt;small&gt;
+下頁有影片模擬示範</t>
 <t tx="leo.20190111142757.4">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -403,7 +411,8 @@ Created by [第一組](https://github.com/mdecadp2018/finalproject-ag1)
 * 描述：
 就像第14週的反向運動學v-rep的練習一樣，利用一個白球帶動整個手臂做動。
 
-https://youtu.be/Nhqg-WxGrys
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/Nhqg-WxGrys" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
 
 
 
@@ -422,7 +431,7 @@ https://youtu.be/Nhqg-WxGrys
 * 描述：
 如影片箭頭所指的地方，我們在那邊設定Dummy外部連接，但影片做動時，卻沒有連接起來。
 
-https://youtu.be/4N_Gi1ALPUE
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/4N_Gi1ALPUE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
 
 </t>
@@ -557,7 +566,7 @@ https://youtu.be/4N_Gi1ALPUE
 </t>
 <t tx="leo.20190111143445.5">## 第13周小組進度
 
-&lt;iframe src="https://i.imgur.com/03VQJBR.png" width="900" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+![alt text](https://i.imgur.com/03VQJBR.png "")
 [Onshape week7](https://cad.onshape.com/documents/f88fcd000b1c981e3741e4a7/v/b8b544d71bb7b59a11264be5/e/de09d714e2e70d2661660a83)
 
 
@@ -574,7 +583,7 @@ https://youtu.be/4N_Gi1ALPUE
 </t>
 <t tx="leo.20190111143445.7">## 第14周小組進度
 
-&lt;iframe src="https://i.imgur.com/fLk6Nti.png" width="900" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+![alt text](https://i.imgur.com/fLk6Nti.png "")
 [Onshape week8](https://cad.onshape.com/documents/f88fcd000b1c981e3741e4a7/v/88827ff4bf450a7a7d5005df/e/8ea6921146c8d2ada378bbb0)
 
 
@@ -592,7 +601,7 @@ https://youtu.be/4N_Gi1ALPUE
 </t>
 <t tx="leo.20190111143445.9">## 第15周小組進度
 
-&lt;iframe src="https://i.imgur.com/860ganw.png" width="900" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+![alt text](https://i.imgur.com/860ganw.png "")
 [Onshape week9](https://cad.onshape.com/documents/99f44813f94bb17995b9615e/v/b6cd6f7ef388b1a3bcbf5660/e/6cf181c64ab0aab44e492e9c)
 
 
@@ -727,8 +736,7 @@ https://youtu.be/4N_Gi1ALPUE
 </t>
 <t tx="leo.20190111150932.2">## 第11周小組進度
 
-&lt;iframe src="https://i.imgur.com/NYWTqgY.png" width="900" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-</t>
+![alt text](https://i.imgur.com/NYWTqgY.png "")</t>
 <t tx="leo.20190111151008.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -765,13 +773,13 @@ https://youtu.be/4N_Gi1ALPUE
 </t>
 <t tx="leo.20190111151027.2">## 機械手臂介紹
 
-* 前言(圖示)
+* 前言(圖示/說明)
 
 * 目的與動機
 
 * 做動原理
 
-* 設計概念(圖示)
+* 設計概念(圖示/說明)
 
 </t>
 <t tx="leo.20190111151057.1">&lt;section data-markdown&gt;
@@ -794,6 +802,8 @@ https://youtu.be/4N_Gi1ALPUE
 * 第四次版本
 
 * 第五次版本
+
+只有圖檔觀看，[詳細說明](https://mdecadp2018.github.io/finalproject-ag1/content/Mechanical_arm.html)請點選連結。
 </t>
 <t tx="leo.20190111151121.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -806,7 +816,7 @@ https://youtu.be/4N_Gi1ALPUE
 </t>
 <t tx="leo.20190111151121.2">## V-rep分析
 
-* 第一次版本
+* 第一次版本(影片1/影片2)
 
 * 第二次版本
 
@@ -824,7 +834,7 @@ https://youtu.be/4N_Gi1ALPUE
 </t>
 <t tx="leo.20190111152803.2">## 第12周小組進度
 
-&lt;iframe src="https://i.imgur.com/tYENE20.png" width="900" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+![alt text](https://i.imgur.com/tYENE20.png "")
 [Onshape week6](https://cad.onshape.com/documents/f88fcd000b1c981e3741e4a7/v/4dbc40f20ca06b4ce67bbb9d/e/de09d714e2e70d2661660a83) 
 
 
@@ -986,7 +996,7 @@ https://youtu.be/4N_Gi1ALPUE
 </t>
 <t tx="leo.20190112145558.2">## 第16周小組進度
 
-&lt;iframe src="https://i.imgur.com/CscRNs5.png" width="900" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+![alt text](https://i.imgur.com/CscRNs5.png "")
 [Onshape week10](https://cad.onshape.com/documents/99f44813f94bb17995b9615e/v/93ff3cde5e7c449938bf86c0/e/6cf181c64ab0aab44e492e9c)
 
 
@@ -1002,7 +1012,7 @@ https://youtu.be/4N_Gi1ALPUE
 </t>
 <t tx="leo.20190112145600.2">## 第17周小組進度
 
-&lt;iframe src="https://i.imgur.com/6tbS7q7.png" width="900" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+![alt text](https://i.imgur.com/6tbS7q7.png "")
 [Onshape week11](https://cad.onshape.com/documents/99f44813f94bb17995b9615e/v/2627bfd245e790a24a6f6895/e/6cf181c64ab0aab44e492e9c)
 
 
@@ -1018,7 +1028,7 @@ https://youtu.be/4N_Gi1ALPUE
 </t>
 <t tx="leo.20190112154611.2">## 前言
 
-&lt;iframe src="https://i.imgur.com/oPYFSY5.png" width="900" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+![alt text](https://i.imgur.com/oPYFSY5.png "")
 &lt;small&gt;
 下頁有文字敘述說明
 
@@ -1035,7 +1045,7 @@ https://youtu.be/4N_Gi1ALPUE
 </t>
 <t tx="leo.20190112154923.2">## 設計概念
 
-&lt;iframe src="https://i.imgur.com/CfbrgZg.png" width="900" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+![alt text](https://i.imgur.com/CfbrgZg.png "")
 &lt;small&gt;
 下頁有文字敘述說明
 
@@ -1052,9 +1062,41 @@ https://youtu.be/4N_Gi1ALPUE
 </t>
 <t tx="leo.20190113221347.2">## v-rep第三版本(最終成功)
 
-最後發現是排序的問題有誤，以及Dummy外部連接設定數量跟位置也有錯誤，最後終於成功做動了，而位置的更動可以與前一支影片做比較。
+最後發現是排序有誤，以及Dummy外部連接設定數量跟位置也有錯誤，然後轉軸設定的位置是在分別設在，一個在曲柄連桿組，一個在基底，另一個是名為C3的旋轉軸上，最後成功做動，而位置的更動可以與上支影片做比較。
 
-https://www.youtube.com/watch?v=QNHa15ZsYac&amp;feature=youtu.be
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/QNHa15ZsYac" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20190115112514.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190115112514.2">## v-rep第一版本
+
+&lt;b&gt;&lt;font color="#FFFF00"&gt;影片1&lt;/font&gt;&lt;/b&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/y8XBA-KPJUA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+
+
+</t>
+<t tx="leo.20190115112527.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190115112527.2">## v-rep第一版本
+
+&lt;b&gt;&lt;font color="#FFBB00"&gt;影片2&lt;/font&gt;&lt;/b&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/35FcB9jzyhk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
 </t>
 </tnodes>
 </leo_file>

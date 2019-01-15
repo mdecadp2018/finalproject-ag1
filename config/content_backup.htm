@@ -457,7 +457,7 @@
 <p><strong><img alt="" height="264" src="/images/chrome_2018-12-27_23-15-22.png" width="285"/></strong></p>
 <h1>Mechanical_arm</h1>
 <ul style="list-style-type: circle;">
-<li><strong>專題進度</strong></li>
+<li><strong>專題進度(未包含上課及回家作業課綱進度)</strong></li>
 </ul>
 <ol>
 <li><span style="color: #0000ff;">第１３周</span>由我們組員相繼畫出機械手臂中的各連桿以及其底座還有查詢機械手臂的做動原理還有機械手臂的規格。大概列出以下內容<br/>
@@ -478,16 +478,29 @@
 <p>因機械手臂是由很多<span style="color: #ff0000;">關節連結</span>並在<span style="color: #ff0000;">平面</span>或<span style="color: #ff0000;">三度空間</span>進行其運動或是線性的位移運動，因此我們在在主軸的連桿上（也就是Onshape Part 的前、上支架）添加了很多孔位，使我們的產品能在有限的平台空間上，<span style="color: #ff0000;">藉由連桿與轉軸的變化使我們的手臂伸長或是縮短範圍</span>。</p>
 <p>________________________________________________________________________________________________</p>
 <ul style="list-style-type: circle;">
-<li><strong>設計圖稿</strong></li>
+<li><strong>設計圖稿(僅有介紹版本歷程)</strong></li>
 </ul>
+<p><span style="color: #ff0000;"><strong>更詳細的內容請至PDF做查看</strong></span></p>
 <p><strong>名稱：六軸機械手臂（<a href="https://cad.onshape.com/documents/0d21c5431601451f54478ab2/w/4d3deda685ecacfbd6d61004/e/4e6b76863a2416f87680aab4">實體連結在這</a>）</strong></p>
 <ol>
-<li>第一次初稿-實體外型<br/><img alt="" height="238" src="/images/chrome_2018-12-27_22-23-00.png" width="300"/></li>
-<li>第二次校稿-實體外型<br/><img alt="" height="252" src="/images/chrome_2019-01-10_15-06-38.png" width="300"/></li>
-<li>第三次校稿-實體外型<br/><img alt="" height="212" src="/images/chrome_2019-01-10_15-07-02.png" width="300"/></li>
-<li>第四次校稿-實體外型(隱藏下機底零件)<br/><img alt="" height="195" src="/images/chrome_2019-01-10_15-07-32.png" width="300"/></li>
+<li>第一次初稿-實體外型<br/><span style="color: #3366ff;">描述：結合了機械手臂和挖土機的功能構造，已經構想好其運動方式。</span><br/><img alt="" height="238" src="/images/chrome_2018-12-27_22-23-00.png" width="300"/></li>
+<li>第二次校稿-實體外型<br/><span style="color: #3366ff;">描述：因配合V-rep分析，故將連桿連接處加上轉軸，並增加灰色基底(避免在運動模擬挖鏟部分跑到地板以下看不到)。</span><br/><img alt="" height="252" src="/images/chrome_2019-01-10_15-06-38.png" width="300"/></li>
+<li>第三次校稿-實體外型<br/><span style="color: #3366ff;">描述：因第二次做動分析不慎理想，故在機構後方加上曲柄連桿，讓模擬能持續且循環。</span><br/><img alt="" height="212" src="/images/chrome_2019-01-10_15-07-02.png" width="300"/></li>
+<li>第四次校稿-實體外型(隱藏下機底零件)<br/><span style="color: #3366ff;">描述：因第三次機構設計，損失原來的設計原理，讓此機構無法旋轉，故我們將選轉軸移至基底裡面，並將基底做上下切割。</span><br/><img alt="" height="195" src="/images/chrome_2019-01-10_15-07-32.png" width="300"/></li>
+<li>第五次最終版-實體外型(連桿改良)<br/><span style="color: #3366ff;">描述：由於第四次分析出來，部分連桿無法MATCH，故我們改良了連桿的外型，並重新排列連桿的排列順序，好讓分析能合理化。</span><br/><img alt="" height="196" src="/images/chrome_2019-01-11_21-32-05.png" width="300"/></li>
 </ol>
 <p>________________________________________________________________________________________________</p>
+<ul style="list-style-type: circle;">
+<li><strong>V-rep模擬分析(僅有介紹分析版本歷程)</strong><strong></strong></li>
+</ul>
+<p><strong><span style="color: #ff0000;">分析步驟解說請至PDF做查看</span></strong></p>
+<ol>
+<li style="text-align: left;">第一次分析<br/><span style="color: #3366ff;">描述：前後設一個旋轉軸、左右轉設一個旋轉軸、 產子那邊再設一個旋轉軸；但彼此無法達到連動關係，因為旋轉軸會各自一直持續逆時針或順時針旋轉如<span style="color: #ff0000;">影片1</span>，因此要等到達一定的位置後按暫停然後再調整，如<span style="color: #ff0000;">影片2</span>顯示。<br/><br/><strong><span style="color: #ff0000;">影片1</span></strong><br/><iframe allowfullscreen="allowfullscreen" height="196" src="//www.youtube.com/embed/y8XBA-KPJUA" width="350"></iframe><br/><br/><strong><span style="color: #ff0000;">影片2<br/><iframe allowfullscreen="allowfullscreen" height="196" src="//www.youtube.com/embed/35FcB9jzyhk" width="350"></iframe><br/></span></strong></span></li>
+<li>第二次分析<br/><span style="color: #3366ff;">描述：就像第14週的反向運動學v-rep的練習一樣，利用一個白球帶動整個手臂做動。<br/><br/><iframe allowfullscreen="allowfullscreen" height="196" src="//www.youtube.com/embed/Nhqg-WxGrys" width="350"></iframe><br/></span></li>
+<li><span style="color: #3366ff;">第三次分析(錯誤版)<br/><span style="color: #3366ff;">描述：如影片箭頭所指的地方，我們在那邊設定Dummy外部連接，但影片做動時，卻沒有連接起來。<br/><br/><iframe allowfullscreen="allowfullscreen" height="196" src="//www.youtube.com/embed/4N_Gi1ALPUE" width="350"></iframe></span><br/></span></li>
+<li><span style="color: #3366ff;">第三次分析(最終版)<br/><span style="color: #3366ff;">描述：最後發現是排序有誤，以及Dummy外部連接設定數量跟位置也有錯誤，然後轉軸設定的位置是在分別設在，一個在曲柄連桿組，一個在基底，另一個是名為C3的旋轉軸上，最後成功做動，而位置的更動可以與上支影片做比較。<br/><br/><iframe allowfullscreen="allowfullscreen" height="196" src="//www.youtube.com/embed/QNHa15ZsYac" width="350"></iframe><br/></span></span></li>
+</ol>
+<p><strong>________________________________________________________________________________________________</strong></p>
 <ul style="list-style-type: circle;">
 <li><strong>參考文獻網站</strong></li>
 </ul>
@@ -607,6 +620,37 @@
 <li>在Onshape的部分可從網站的這個頁面查看步驟教學<br/><img alt="" height="226" src="/images/2018-12-27_21-56-51.png" width="228"/></li>
 <li>在Report的部分可從網站的這個頁面查看步驟教學<br/><img alt="" height="239" src="/images/2018-12-27_21-58-34.png" width="236"/></li>
 </ol>
+<h2>Week 16</h2>
+<p><strong>【 Onshape圖匯入V-rep分析錯誤】</strong></p>
+<p>●問題：</p>
+<p><span style="color: #ff0000;">將畫好的Onshape機構下載成檔案，匯入V-rep裡卻有部分零件無法分解</span></p>
+<ol>
+<li>可能要下載未設定任何限制條件的組合檔</li>
+<li>有多設定到一些不必要的條件</li>
+<li>V-rep軟體本身內部問題</li>
+</ol>
+<p>●方法：</p>
+<ol>
+<li>我們分了未組裝與組裝版<br/><img alt="" height="29" src="/images/chrome_2019-01-15_12-12-53.png" width="402"/></li>
+<li>重新設定所有限制條件</li>
+</ol>
+<p><span style="color: #ff0000;">後採用方法 2，然而方法1的未組裝是錯誤的</span></p>
+<h2>Week 17</h2>
+<p><strong>【 V-rep分析結果有連桿無法配合】</strong></p>
+<p><strong>●流程：</strong></p>
+<p><span style="color: #ff0000;">於Final_Report中的PDF V-rep分析有詳細介紹</span></p>
+<p>●問題：</p>
+<ol>
+<li>物件與轉軸連接順序不對</li>
+<li>物件設定有誤</li>
+<li>機構本身設計不良</li>
+</ol>
+<p>●方法：</p>
+<ol>
+<li>Dummy與物件連結排序錯誤，改善方法和影片測試可到(<a href="https://mdecadp2018.github.io/finalproject-ag1/reveal/index.html#/7">完成版</a>)做觀看</li>
+<li>物件設定的方面也有漏掉，可到PDF檔中去做觀看</li>
+<li>我們參考了其他相關實例的分析排序，更改我們的機構連桿，讓物件排序重新規劃並讓它合理化，可到PDF檔中去做觀看</li>
+</ol>
 </blockquote>
 <h1>Experience</h1>
 <h2>40423217心得記錄</h2>
@@ -669,8 +713,8 @@
 <ul style="list-style-type: circle;">
 <li><b>PDF檔案及雲端網址</b></li>
 </ul>
-<p style="text-align: center;">此PDF檔將會不斷更新，並在期末完成最終專題報告版本。<br/><br/>★（目前版本更新日期為２０１９.０１.１１）★</p>
-<p style="text-align: center;"><a href="/downloads/2018CadpA 第一組 機械設計專題.pdf">/downloads/2018CadpA 第一組 機械設計專題.pdf</a></p>
+<p style="text-align: center;">此PDF檔將會不斷更新，並在期末完成最終專題報告版本。<br/><br/>★（<span style="color: #ff0000;">最終版本</span>更新日期為２０１９.０１.１５）★</p>
+<p style="text-align: center;"><a href="/downloads/2018CadpA 第一組 機械設計專題.pdf">2018CadpA 第一組 機械設計專題.pdf</a></p>
 <p style="text-align: center;">此雲端連結可查看各組員編輯紀錄。<br/>只要點選此連結無須通過審核即可查看，但不可編輯。</p>
 <p style="text-align: center;"><a href="https://docs.google.com/document/d/1xFkjalr3mr0s4NZ8WgIxPdvlwPIdP7mizNOrYAkDWqA/edit?usp=sharing">雲端Word</a></p>
 <ul style="list-style-type: circle;">
@@ -763,7 +807,7 @@
 <td style="width: 10%; height: 99px; text-align: center;">O</td>
 <td style="width: 10%; height: 99px; text-align: center;">O</td>
 <td style="width: 10%; height: 99px; text-align: center;">O</td>
-<td style="width: 10%; height: 99px; text-align: center;"></td>
+<td style="width: 10%; height: 99px; text-align: center;">O</td>
 </tr>
 <tr style="height: 78px;">
 <td style="width: 5%; height: 78px; text-align: center;">
@@ -778,7 +822,7 @@
 <td style="width: 10%; height: 78px; text-align: center;">O</td>
 <td style="width: 10%; height: 78px; text-align: center;">O</td>
 <td style="width: 10%; height: 78px; text-align: center;">O</td>
-<td style="width: 10%; height: 78px; text-align: center;"></td>
+<td style="width: 10%; height: 78px; text-align: center;">O</td>
 </tr>
 <tr style="height: 49px;">
 <td style="width: 5%; height: 49px; text-align: center;">
@@ -793,7 +837,7 @@
 <td style="width: 10%; height: 49px; text-align: center;">O</td>
 <td style="width: 10%; height: 49px; text-align: center;">O</td>
 <td style="width: 10%; height: 49px; text-align: center;">O</td>
-<td style="width: 10%; height: 49px; text-align: center;"></td>
+<td style="width: 10%; height: 49px; text-align: center;">O</td>
 </tr>
 <tr style="height: 49px;">
 <td style="width: 5%; height: 49px; text-align: center;">
@@ -808,7 +852,7 @@
 <td style="width: 10%; height: 49px; text-align: center;">O</td>
 <td style="width: 10%; height: 49px; text-align: center;">O</td>
 <td style="width: 10%; height: 49px; text-align: center;">O</td>
-<td style="width: 10%; height: 49px; text-align: center;"></td>
+<td style="width: 10%; height: 49px; text-align: center;">O</td>
 </tr>
 </tbody>
 </table>
